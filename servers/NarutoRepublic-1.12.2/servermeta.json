@@ -6,9 +6,9 @@
     "description": "NarutoRepublic Official server",
     "address": "173.205.84.79:25565",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Naruto",
+      "largeImageText": "Naruto Republic",
+      "largeImageKey": "icon"
     },
     "mainServer": true,
     "autoconnect": false
