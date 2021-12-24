@@ -1,0 +1,4291 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "NarutoRepublic-1.12.2",
+      "name": "NarutoRepublic (1.12.2)",
+      "description": "NarutoRepublic Official server",
+      "icon": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/server-icon.png",
+      "version": "1.0.0",
+      "address": "173.205.84.79:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10789,
+                "MD5": "5d092df68975deb3d56c87f977aaf5fa",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "damageindicatorsmod:DamageIndicatorsMod:3.5.1@jar",
+          "name": "Damage Indicators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285416,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/[1.12.2]DamageIndicatorsMod-3.5.1.jar",
+            "MD5": "09dd0cd435c1185b796b3557cbce6cdc"
+          }
+        },
+        {
+          "id": "com.creativemd:ambientsounds:3.0@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76507517,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/AmbientSounds_v3.0.18_mc1.12.2.jar",
+            "MD5": "e7f8ea70aafda2e38ab3c85a8fe38d7c"
+          }
+        },
+        {
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
+          "id": "locusway.colorfulhealthbar:colorfulhealthbar:0.0.4@jar",
+          "name": "Colorful Health Bar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18771,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/colorfulhealthbar-0.0.4.jar",
+            "MD5": "066456d4828728c899362cb28c1025ca"
+          }
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1211292,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CreativeCore_v1.10.47_mc1.12.2.jar",
+            "MD5": "78974950f6836fe7a55e9846fcfeacfb"
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9924337,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot.jar",
+            "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.3.7_1.12.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16976718,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12"
+          }
+        },
+        {
+          "id": "pegbeard.dungeontactics:dungeontactics:DT-0.16.9@jar",
+          "name": "DungeonTactics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2797080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DungeonTactics-1.12.2-0.16.9.jar",
+            "MD5": "0e87f86e10338ad36cdc9a1b4e56d78b"
+          }
+        },
+        {
+          "id": "atomicstryker.dynamiclights.client:DynamicLights:1.4.9@jar",
+          "name": "Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102000,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DynamicLights-1.12.2.jar",
+            "MD5": "bbf46497e737f88bbfeb8cce74fb3099"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.0@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990613,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/journeymap-1.12.2-5.7.0.jar",
+            "MD5": "3825ed0144c5cbf4d30760bec96d5843"
+          }
+        },
+        {
+          "id": "net.mcreator:narutomod:0.2.5-beta@jar",
+          "name": "NarutoMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13372401,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoMod-1.12.2-0.2.5.beta.jar",
+            "MD5": "9c1da31e3f66e0cde31a7bbc6e03b6cb"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
+          "name": "Ptrmodellib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169749,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "party.lemons:trapexpansion:1.0.0@jar",
+          "name": "Trap Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150736,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/trapexpansion-1.0.0.jar",
+            "MD5": "d11106c861fd346b1677a7c89a3f00c9"
+          }
+        },
+        {
+          "id": "noppes.vc:variedcommodities:1.0@jar",
+          "name": "Varied Commodities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1567926,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/VariedCommodities_1.12.2(21nov19).jar",
+            "MD5": "c4abbbf3e8705c5be1769f7617041803"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:4.0.72@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 175462,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Waystones_1.12.2-4.0.72.jar",
+            "MD5": "bd0e629002546e7cc3b6207a61886b88"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/04de-7409-5364-4c91/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/04de-7409-5364-4c91/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "avutil-ttv-51.dll",
+          "name": "avutil-ttv-51.dll",
+          "type": "File",
+          "artifact": {
+            "size": 653832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/avutil-ttv-51.dll",
+            "MD5": "c804476200c9b4910cbc350c102fc3fe",
+            "path": "bin/04de-7409-5364-4c91/avutil-ttv-51.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/04de-7409-5364-4c91/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/04de-7409-5364-4c91/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/04de-7409-5364-4c91/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/04de-7409-5364-4c91/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/04de-7409-5364-4c91/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "libmfxsw64.dll",
+          "name": "libmfxsw64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 20533656,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/libmfxsw64.dll",
+            "MD5": "29bc29f7c4116ed33810a85c7de74532",
+            "path": "bin/04de-7409-5364-4c91/libmfxsw64.dll"
+          }
+        },
+        {
+          "id": "libmp3lame-ttv.dll",
+          "name": "libmp3lame-ttv.dll",
+          "type": "File",
+          "artifact": {
+            "size": 688161,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/libmp3lame-ttv.dll",
+            "MD5": "80af59d20146e88b50814bb5701140ad",
+            "path": "bin/04de-7409-5364-4c91/libmp3lame-ttv.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 298496,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/lwjgl.dll",
+            "MD5": "f4a31218fcb01a9a8946f4f315e91aa8",
+            "path": "bin/04de-7409-5364-4c91/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 310272,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/lwjgl64.dll",
+            "MD5": "3fcf8b1bd4c9066ff815d887a4192456",
+            "path": "bin/04de-7409-5364-4c91/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "swresample-ttv-0.dll",
+          "name": "swresample-ttv-0.dll",
+          "type": "File",
+          "artifact": {
+            "size": 361103,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/swresample-ttv-0.dll",
+            "MD5": "052592f7f5afaf2b6b470c4b94c84ca8",
+            "path": "bin/04de-7409-5364-4c91/swresample-ttv-0.dll"
+          }
+        },
+        {
+          "id": "twitchsdk.dll",
+          "name": "twitchsdk.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1127424,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/04de-7409-5364-4c91/twitchsdk.dll",
+            "MD5": "9b2be86d480c57dba42264bd6a713bb1",
+            "path": "bin/04de-7409-5364-4c91/twitchsdk.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/2a08-f875-78c6-3dd6/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/2a08-f875-78c6-3dd6/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/2a08-f875-78c6-3dd6/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/2a08-f875-78c6-3dd6/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/6346-7575-7750-3c88/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/6346-7575-7750-3c88/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "avutil-ttv-51.dll",
+          "name": "avutil-ttv-51.dll",
+          "type": "File",
+          "artifact": {
+            "size": 653832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/avutil-ttv-51.dll",
+            "MD5": "c804476200c9b4910cbc350c102fc3fe",
+            "path": "bin/6346-7575-7750-3c88/avutil-ttv-51.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/6346-7575-7750-3c88/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/6346-7575-7750-3c88/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/6346-7575-7750-3c88/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/6346-7575-7750-3c88/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/6346-7575-7750-3c88/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "libmfxsw64.dll",
+          "name": "libmfxsw64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 20533656,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/libmfxsw64.dll",
+            "MD5": "29bc29f7c4116ed33810a85c7de74532",
+            "path": "bin/6346-7575-7750-3c88/libmfxsw64.dll"
+          }
+        },
+        {
+          "id": "libmp3lame-ttv.dll",
+          "name": "libmp3lame-ttv.dll",
+          "type": "File",
+          "artifact": {
+            "size": 688161,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/libmp3lame-ttv.dll",
+            "MD5": "80af59d20146e88b50814bb5701140ad",
+            "path": "bin/6346-7575-7750-3c88/libmp3lame-ttv.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 298496,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/lwjgl.dll",
+            "MD5": "f4a31218fcb01a9a8946f4f315e91aa8",
+            "path": "bin/6346-7575-7750-3c88/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 310272,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/lwjgl64.dll",
+            "MD5": "3fcf8b1bd4c9066ff815d887a4192456",
+            "path": "bin/6346-7575-7750-3c88/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "swresample-ttv-0.dll",
+          "name": "swresample-ttv-0.dll",
+          "type": "File",
+          "artifact": {
+            "size": 361103,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/swresample-ttv-0.dll",
+            "MD5": "052592f7f5afaf2b6b470c4b94c84ca8",
+            "path": "bin/6346-7575-7750-3c88/swresample-ttv-0.dll"
+          }
+        },
+        {
+          "id": "twitchsdk.dll",
+          "name": "twitchsdk.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1127424,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6346-7575-7750-3c88/twitchsdk.dll",
+            "MD5": "9b2be86d480c57dba42264bd6a713bb1",
+            "path": "bin/6346-7575-7750-3c88/twitchsdk.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/6876-9138-050f-7a17/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/6876-9138-050f-7a17/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/6876-9138-050f-7a17/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 71168,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/SAPIWrapper_x86.dll",
+            "MD5": "41dfbc2efe788a9aa10317c1a1a19f63",
+            "path": "bin/6876-9138-050f-7a17/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/6876-9138-050f-7a17/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/6876-9138-050f-7a17/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/6876-9138-050f-7a17/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/6876-9138-050f-7a17/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/6876-9138-050f-7a17/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 306176,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/lwjgl.dll",
+            "MD5": "2644c73a80eb9f9fb7f81a2a5e546642",
+            "path": "bin/6876-9138-050f-7a17/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/6876-9138-050f-7a17/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/6876-9138-050f-7a17/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "INDEX.LIST",
+          "name": "INDEX.LIST",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/META-INF/INDEX.LIST",
+            "MD5": "5b9e16f4c69fbab3286972e2c3e57f51",
+            "path": "bin/7f07-ad4d-aade-47a5/META-INF/INDEX.LIST"
+          }
+        },
+        {
+          "id": "MANIFEST.MF",
+          "name": "MANIFEST.MF",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/META-INF/MANIFEST.MF",
+            "MD5": "51941725f5769914e6c02efcff31f951",
+            "path": "bin/7f07-ad4d-aade-47a5/META-INF/MANIFEST.MF"
+          }
+        },
+        {
+          "id": "module-info.class",
+          "name": "module-info.class",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/META-INF/versions/9/module-info.class",
+            "MD5": "09a3038739628fb091f1be90c2903fb7",
+            "path": "bin/7f07-ad4d-aade-47a5/META-INF/versions/9/module-info.class"
+          }
+        },
+        {
+          "id": "OpenAL.dll",
+          "name": "OpenAL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1096192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL.dll",
+            "MD5": "a21338306c8027ebc459c57db8459777",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL.dll"
+          }
+        },
+        {
+          "id": "OpenAL.dll.git",
+          "name": "OpenAL.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL.dll.sha1",
+          "name": "OpenAL.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL.dll.sha1",
+            "MD5": "b1b872f6e2250ca8e24beb0cfafa62bc",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1006080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL32.dll",
+            "MD5": "bea36e6601b1b9c5dc85eb66cb438887",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.git",
+          "name": "OpenAL32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL32.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL32.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.sha1",
+          "name": "OpenAL32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/OpenAL32.dll.sha1",
+            "MD5": "6eef8babb8dd2c3ab1940937aa387ad6",
+            "path": "bin/7f07-ad4d-aade-47a5/OpenAL32.dll.sha1"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/SAPIWrapper_x64.dll",
+            "MD5": "214a0bc5ae5882495d94f7779d64b323",
+            "path": "bin/7f07-ad4d-aade-47a5/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 72192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/SAPIWrapper_x86.dll",
+            "MD5": "3d47e750e4ec109d441a427ab8b37614",
+            "path": "bin/7f07-ad4d-aade-47a5/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "glfw.dll",
+          "name": "glfw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 355840,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw.dll",
+            "MD5": "532f9686b0b55b3d7cf9f6733f29ba28",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw.dll"
+          }
+        },
+        {
+          "id": "glfw.dll.git",
+          "name": "glfw.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw.dll.git"
+          }
+        },
+        {
+          "id": "glfw.dll.sha1",
+          "name": "glfw.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw.dll.sha1",
+            "MD5": "f6d4f19a41f245991382bbec2b787919",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw.dll.sha1"
+          }
+        },
+        {
+          "id": "glfw32.dll",
+          "name": "glfw32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 333824,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw32.dll",
+            "MD5": "5c7b7a7e9ceedd779ddf531ea58db8e9",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw32.dll"
+          }
+        },
+        {
+          "id": "glfw32.dll.git",
+          "name": "glfw32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw32.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw32.dll.git"
+          }
+        },
+        {
+          "id": "glfw32.dll.sha1",
+          "name": "glfw32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/glfw32.dll.sha1",
+            "MD5": "ea86d55e20e0f21818750c211f45339c",
+            "path": "bin/7f07-ad4d-aade-47a5/glfw32.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc.dll",
+          "name": "jemalloc.dll",
+          "type": "File",
+          "artifact": {
+            "size": 254464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc.dll",
+            "MD5": "cdcaa2d4874a0aaab526c52e1fff2fea",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc.dll"
+          }
+        },
+        {
+          "id": "jemalloc.dll.git",
+          "name": "jemalloc.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc.dll.sha1",
+          "name": "jemalloc.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc.dll.sha1",
+            "MD5": "c75adb723dc1e8da6882e971de1a409b",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc32.dll",
+          "name": "jemalloc32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 195584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc32.dll",
+            "MD5": "93aeb5ec9f94134784373f370d295a61",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc32.dll"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.git",
+          "name": "jemalloc32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc32.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc32.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.sha1",
+          "name": "jemalloc32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/jemalloc32.dll.sha1",
+            "MD5": "fbbe79cdea2217e7472b685833415781",
+            "path": "bin/7f07-ad4d-aade-47a5/jemalloc32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 449536,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl.dll",
+            "MD5": "310adc26c92b020fb6d2944092d81312",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll.git",
+          "name": "lwjgl.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl.dll.sha1",
+          "name": "lwjgl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl.dll.sha1",
+            "MD5": "4f7a6367c6c42a8a1ee061f44ba0684d",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl32.dll",
+          "name": "lwjgl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 429568,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl32.dll",
+            "MD5": "b8ea778d75b1150ec0eec59d764e57cd",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.git",
+          "name": "lwjgl32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl32.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl32.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.sha1",
+          "name": "lwjgl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl32.dll.sha1",
+            "MD5": "584f81d398eba50d1154fc339fbff717",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll",
+          "name": "lwjgl_opengl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 341504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_opengl.dll",
+            "MD5": "780ed18868c28c0c249379982ea3297a",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_opengl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll.sha1",
+          "name": "lwjgl_opengl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_opengl.dll.sha1",
+            "MD5": "6ee0f89c37c3fddc254fdb8c7bdb28b0",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_opengl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll",
+          "name": "lwjgl_opengl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 323584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_opengl32.dll",
+            "MD5": "68b37c18052fb770e77477e1e53a3428",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_opengl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll.sha1",
+          "name": "lwjgl_opengl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_opengl32.dll.sha1",
+            "MD5": "18d5a928ba6fa486f936cf3807a8668c",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_opengl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 500224,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_stb.dll",
+            "MD5": "236817b9ba4f101e25518f1158b7691f",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll.sha1",
+          "name": "lwjgl_stb.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_stb.dll.sha1",
+            "MD5": "3c0e66f2ec6b7185e3ef60115b79c3b5",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_stb.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll",
+          "name": "lwjgl_stb32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 442880,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_stb32.dll",
+            "MD5": "a0e616c8b75575f45497864d650005ec",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_stb32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll.sha1",
+          "name": "lwjgl_stb32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_stb32.dll.sha1",
+            "MD5": "f9fe876da47aa5278e9d5a43672fbd4f",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_stb32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll",
+          "name": "lwjgl_tinyfd.dll",
+          "type": "File",
+          "artifact": {
+            "size": 214016,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd.dll",
+            "MD5": "5dc7452c51330beb7a178d7093cdac49",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll.sha1",
+          "name": "lwjgl_tinyfd.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd.dll.sha1",
+            "MD5": "d1a6d5194c129c008dc8fdb9ff1a6c6a",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll",
+          "name": "lwjgl_tinyfd32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 182784,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd32.dll",
+            "MD5": "ae277b62653af1bdbb27b73ea98970bb",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll.sha1",
+          "name": "lwjgl_tinyfd32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd32.dll.sha1",
+            "MD5": "38d57c396ac882a59d99a80e984bb5e3",
+            "path": "bin/7f07-ad4d-aade-47a5/lwjgl_tinyfd32.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/8359-92bc-9d52-0367/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/8359-92bc-9d52-0367/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/8359-92bc-9d52-0367/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/8359-92bc-9d52-0367/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/8359-92bc-9d52-0367/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/8359-92bc-9d52-0367/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "INDEX.LIST",
+          "name": "INDEX.LIST",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/META-INF/INDEX.LIST",
+            "MD5": "5b9e16f4c69fbab3286972e2c3e57f51",
+            "path": "bin/94af-88e6-af65-1a89/META-INF/INDEX.LIST"
+          }
+        },
+        {
+          "id": "MANIFEST.MF",
+          "name": "MANIFEST.MF",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/META-INF/MANIFEST.MF",
+            "MD5": "51941725f5769914e6c02efcff31f951",
+            "path": "bin/94af-88e6-af65-1a89/META-INF/MANIFEST.MF"
+          }
+        },
+        {
+          "id": "module-info.class",
+          "name": "module-info.class",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/META-INF/versions/9/module-info.class",
+            "MD5": "09a3038739628fb091f1be90c2903fb7",
+            "path": "bin/94af-88e6-af65-1a89/META-INF/versions/9/module-info.class"
+          }
+        },
+        {
+          "id": "OpenAL.dll",
+          "name": "OpenAL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1096192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL.dll",
+            "MD5": "a21338306c8027ebc459c57db8459777",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL.dll"
+          }
+        },
+        {
+          "id": "OpenAL.dll.git",
+          "name": "OpenAL.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL.dll.sha1",
+          "name": "OpenAL.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL.dll.sha1",
+            "MD5": "b1b872f6e2250ca8e24beb0cfafa62bc",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1006080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL32.dll",
+            "MD5": "bea36e6601b1b9c5dc85eb66cb438887",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.git",
+          "name": "OpenAL32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL32.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL32.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.sha1",
+          "name": "OpenAL32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/OpenAL32.dll.sha1",
+            "MD5": "6eef8babb8dd2c3ab1940937aa387ad6",
+            "path": "bin/94af-88e6-af65-1a89/OpenAL32.dll.sha1"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/SAPIWrapper_x64.dll",
+            "MD5": "214a0bc5ae5882495d94f7779d64b323",
+            "path": "bin/94af-88e6-af65-1a89/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 72192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/SAPIWrapper_x86.dll",
+            "MD5": "3d47e750e4ec109d441a427ab8b37614",
+            "path": "bin/94af-88e6-af65-1a89/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "glfw.dll",
+          "name": "glfw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 355840,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw.dll",
+            "MD5": "532f9686b0b55b3d7cf9f6733f29ba28",
+            "path": "bin/94af-88e6-af65-1a89/glfw.dll"
+          }
+        },
+        {
+          "id": "glfw.dll.git",
+          "name": "glfw.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/94af-88e6-af65-1a89/glfw.dll.git"
+          }
+        },
+        {
+          "id": "glfw.dll.sha1",
+          "name": "glfw.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw.dll.sha1",
+            "MD5": "f6d4f19a41f245991382bbec2b787919",
+            "path": "bin/94af-88e6-af65-1a89/glfw.dll.sha1"
+          }
+        },
+        {
+          "id": "glfw32.dll",
+          "name": "glfw32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 333824,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw32.dll",
+            "MD5": "5c7b7a7e9ceedd779ddf531ea58db8e9",
+            "path": "bin/94af-88e6-af65-1a89/glfw32.dll"
+          }
+        },
+        {
+          "id": "glfw32.dll.git",
+          "name": "glfw32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw32.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/94af-88e6-af65-1a89/glfw32.dll.git"
+          }
+        },
+        {
+          "id": "glfw32.dll.sha1",
+          "name": "glfw32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/glfw32.dll.sha1",
+            "MD5": "ea86d55e20e0f21818750c211f45339c",
+            "path": "bin/94af-88e6-af65-1a89/glfw32.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc.dll",
+          "name": "jemalloc.dll",
+          "type": "File",
+          "artifact": {
+            "size": 254464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc.dll",
+            "MD5": "cdcaa2d4874a0aaab526c52e1fff2fea",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc.dll"
+          }
+        },
+        {
+          "id": "jemalloc.dll.git",
+          "name": "jemalloc.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc.dll.sha1",
+          "name": "jemalloc.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc.dll.sha1",
+            "MD5": "c75adb723dc1e8da6882e971de1a409b",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc32.dll",
+          "name": "jemalloc32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 195584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc32.dll",
+            "MD5": "93aeb5ec9f94134784373f370d295a61",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc32.dll"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.git",
+          "name": "jemalloc32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc32.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc32.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.sha1",
+          "name": "jemalloc32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/jemalloc32.dll.sha1",
+            "MD5": "fbbe79cdea2217e7472b685833415781",
+            "path": "bin/94af-88e6-af65-1a89/jemalloc32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 449536,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl.dll",
+            "MD5": "310adc26c92b020fb6d2944092d81312",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll.git",
+          "name": "lwjgl.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl.dll.sha1",
+          "name": "lwjgl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl.dll.sha1",
+            "MD5": "4f7a6367c6c42a8a1ee061f44ba0684d",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl32.dll",
+          "name": "lwjgl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 429568,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl32.dll",
+            "MD5": "b8ea778d75b1150ec0eec59d764e57cd",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.git",
+          "name": "lwjgl32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl32.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl32.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.sha1",
+          "name": "lwjgl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl32.dll.sha1",
+            "MD5": "584f81d398eba50d1154fc339fbff717",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll",
+          "name": "lwjgl_opengl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 341504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_opengl.dll",
+            "MD5": "780ed18868c28c0c249379982ea3297a",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_opengl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll.sha1",
+          "name": "lwjgl_opengl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_opengl.dll.sha1",
+            "MD5": "6ee0f89c37c3fddc254fdb8c7bdb28b0",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_opengl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll",
+          "name": "lwjgl_opengl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 323584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_opengl32.dll",
+            "MD5": "68b37c18052fb770e77477e1e53a3428",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_opengl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll.sha1",
+          "name": "lwjgl_opengl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_opengl32.dll.sha1",
+            "MD5": "18d5a928ba6fa486f936cf3807a8668c",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_opengl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 500224,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_stb.dll",
+            "MD5": "236817b9ba4f101e25518f1158b7691f",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll.sha1",
+          "name": "lwjgl_stb.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_stb.dll.sha1",
+            "MD5": "3c0e66f2ec6b7185e3ef60115b79c3b5",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_stb.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll",
+          "name": "lwjgl_stb32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 442880,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_stb32.dll",
+            "MD5": "a0e616c8b75575f45497864d650005ec",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_stb32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll.sha1",
+          "name": "lwjgl_stb32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_stb32.dll.sha1",
+            "MD5": "f9fe876da47aa5278e9d5a43672fbd4f",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_stb32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll",
+          "name": "lwjgl_tinyfd.dll",
+          "type": "File",
+          "artifact": {
+            "size": 214016,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_tinyfd.dll",
+            "MD5": "5dc7452c51330beb7a178d7093cdac49",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_tinyfd.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll.sha1",
+          "name": "lwjgl_tinyfd.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_tinyfd.dll.sha1",
+            "MD5": "d1a6d5194c129c008dc8fdb9ff1a6c6a",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_tinyfd.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll",
+          "name": "lwjgl_tinyfd32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 182784,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_tinyfd32.dll",
+            "MD5": "ae277b62653af1bdbb27b73ea98970bb",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_tinyfd32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll.sha1",
+          "name": "lwjgl_tinyfd32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/94af-88e6-af65-1a89/lwjgl_tinyfd32.dll.sha1",
+            "MD5": "38d57c396ac882a59d99a80e984bb5e3",
+            "path": "bin/94af-88e6-af65-1a89/lwjgl_tinyfd32.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/9f6d-2645-64d5-20e4/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/9f6d-2645-64d5-20e4/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/9f6d-2645-64d5-20e4/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 71168,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/SAPIWrapper_x86.dll",
+            "MD5": "41dfbc2efe788a9aa10317c1a1a19f63",
+            "path": "bin/9f6d-2645-64d5-20e4/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/9f6d-2645-64d5-20e4/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/9f6d-2645-64d5-20e4/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/9f6d-2645-64d5-20e4/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/9f6d-2645-64d5-20e4/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/9f6d-2645-64d5-20e4/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 306176,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/lwjgl.dll",
+            "MD5": "2644c73a80eb9f9fb7f81a2a5e546642",
+            "path": "bin/9f6d-2645-64d5-20e4/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/9f6d-2645-64d5-20e4/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/9f6d-2645-64d5-20e4/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "INDEX.LIST",
+          "name": "INDEX.LIST",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/META-INF/INDEX.LIST",
+            "MD5": "5b9e16f4c69fbab3286972e2c3e57f51",
+            "path": "bin/a398-5ed7-84b1-a175/META-INF/INDEX.LIST"
+          }
+        },
+        {
+          "id": "MANIFEST.MF",
+          "name": "MANIFEST.MF",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/META-INF/MANIFEST.MF",
+            "MD5": "51941725f5769914e6c02efcff31f951",
+            "path": "bin/a398-5ed7-84b1-a175/META-INF/MANIFEST.MF"
+          }
+        },
+        {
+          "id": "module-info.class",
+          "name": "module-info.class",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/META-INF/versions/9/module-info.class",
+            "MD5": "09a3038739628fb091f1be90c2903fb7",
+            "path": "bin/a398-5ed7-84b1-a175/META-INF/versions/9/module-info.class"
+          }
+        },
+        {
+          "id": "OpenAL.dll",
+          "name": "OpenAL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1096192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL.dll",
+            "MD5": "a21338306c8027ebc459c57db8459777",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL.dll"
+          }
+        },
+        {
+          "id": "OpenAL.dll.git",
+          "name": "OpenAL.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL.dll.sha1",
+          "name": "OpenAL.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL.dll.sha1",
+            "MD5": "b1b872f6e2250ca8e24beb0cfafa62bc",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1006080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL32.dll",
+            "MD5": "bea36e6601b1b9c5dc85eb66cb438887",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.git",
+          "name": "OpenAL32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL32.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL32.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.sha1",
+          "name": "OpenAL32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/OpenAL32.dll.sha1",
+            "MD5": "6eef8babb8dd2c3ab1940937aa387ad6",
+            "path": "bin/a398-5ed7-84b1-a175/OpenAL32.dll.sha1"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/SAPIWrapper_x64.dll",
+            "MD5": "214a0bc5ae5882495d94f7779d64b323",
+            "path": "bin/a398-5ed7-84b1-a175/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 72192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/SAPIWrapper_x86.dll",
+            "MD5": "3d47e750e4ec109d441a427ab8b37614",
+            "path": "bin/a398-5ed7-84b1-a175/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "glfw.dll",
+          "name": "glfw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 355840,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw.dll",
+            "MD5": "532f9686b0b55b3d7cf9f6733f29ba28",
+            "path": "bin/a398-5ed7-84b1-a175/glfw.dll"
+          }
+        },
+        {
+          "id": "glfw.dll.git",
+          "name": "glfw.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/a398-5ed7-84b1-a175/glfw.dll.git"
+          }
+        },
+        {
+          "id": "glfw.dll.sha1",
+          "name": "glfw.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw.dll.sha1",
+            "MD5": "f6d4f19a41f245991382bbec2b787919",
+            "path": "bin/a398-5ed7-84b1-a175/glfw.dll.sha1"
+          }
+        },
+        {
+          "id": "glfw32.dll",
+          "name": "glfw32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 333824,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw32.dll",
+            "MD5": "5c7b7a7e9ceedd779ddf531ea58db8e9",
+            "path": "bin/a398-5ed7-84b1-a175/glfw32.dll"
+          }
+        },
+        {
+          "id": "glfw32.dll.git",
+          "name": "glfw32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw32.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/a398-5ed7-84b1-a175/glfw32.dll.git"
+          }
+        },
+        {
+          "id": "glfw32.dll.sha1",
+          "name": "glfw32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/glfw32.dll.sha1",
+            "MD5": "ea86d55e20e0f21818750c211f45339c",
+            "path": "bin/a398-5ed7-84b1-a175/glfw32.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc.dll",
+          "name": "jemalloc.dll",
+          "type": "File",
+          "artifact": {
+            "size": 254464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc.dll",
+            "MD5": "cdcaa2d4874a0aaab526c52e1fff2fea",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc.dll"
+          }
+        },
+        {
+          "id": "jemalloc.dll.git",
+          "name": "jemalloc.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc.dll.sha1",
+          "name": "jemalloc.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc.dll.sha1",
+            "MD5": "c75adb723dc1e8da6882e971de1a409b",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc32.dll",
+          "name": "jemalloc32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 195584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc32.dll",
+            "MD5": "93aeb5ec9f94134784373f370d295a61",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc32.dll"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.git",
+          "name": "jemalloc32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc32.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc32.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.sha1",
+          "name": "jemalloc32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/jemalloc32.dll.sha1",
+            "MD5": "fbbe79cdea2217e7472b685833415781",
+            "path": "bin/a398-5ed7-84b1-a175/jemalloc32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 449536,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl.dll",
+            "MD5": "310adc26c92b020fb6d2944092d81312",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll.git",
+          "name": "lwjgl.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl.dll.sha1",
+          "name": "lwjgl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl.dll.sha1",
+            "MD5": "4f7a6367c6c42a8a1ee061f44ba0684d",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl32.dll",
+          "name": "lwjgl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 429568,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl32.dll",
+            "MD5": "b8ea778d75b1150ec0eec59d764e57cd",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.git",
+          "name": "lwjgl32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl32.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl32.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.sha1",
+          "name": "lwjgl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl32.dll.sha1",
+            "MD5": "584f81d398eba50d1154fc339fbff717",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll",
+          "name": "lwjgl_opengl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 341504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_opengl.dll",
+            "MD5": "780ed18868c28c0c249379982ea3297a",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_opengl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll.sha1",
+          "name": "lwjgl_opengl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_opengl.dll.sha1",
+            "MD5": "6ee0f89c37c3fddc254fdb8c7bdb28b0",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_opengl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll",
+          "name": "lwjgl_opengl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 323584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_opengl32.dll",
+            "MD5": "68b37c18052fb770e77477e1e53a3428",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_opengl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll.sha1",
+          "name": "lwjgl_opengl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_opengl32.dll.sha1",
+            "MD5": "18d5a928ba6fa486f936cf3807a8668c",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_opengl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 500224,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_stb.dll",
+            "MD5": "236817b9ba4f101e25518f1158b7691f",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll.sha1",
+          "name": "lwjgl_stb.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_stb.dll.sha1",
+            "MD5": "3c0e66f2ec6b7185e3ef60115b79c3b5",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_stb.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll",
+          "name": "lwjgl_stb32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 442880,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_stb32.dll",
+            "MD5": "a0e616c8b75575f45497864d650005ec",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_stb32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll.sha1",
+          "name": "lwjgl_stb32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_stb32.dll.sha1",
+            "MD5": "f9fe876da47aa5278e9d5a43672fbd4f",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_stb32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll",
+          "name": "lwjgl_tinyfd.dll",
+          "type": "File",
+          "artifact": {
+            "size": 214016,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_tinyfd.dll",
+            "MD5": "5dc7452c51330beb7a178d7093cdac49",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_tinyfd.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll.sha1",
+          "name": "lwjgl_tinyfd.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_tinyfd.dll.sha1",
+            "MD5": "d1a6d5194c129c008dc8fdb9ff1a6c6a",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_tinyfd.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll",
+          "name": "lwjgl_tinyfd32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 182784,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_tinyfd32.dll",
+            "MD5": "ae277b62653af1bdbb27b73ea98970bb",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_tinyfd32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll.sha1",
+          "name": "lwjgl_tinyfd32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/a398-5ed7-84b1-a175/lwjgl_tinyfd32.dll.sha1",
+            "MD5": "38d57c396ac882a59d99a80e984bb5e3",
+            "path": "bin/a398-5ed7-84b1-a175/lwjgl_tinyfd32.dll.sha1"
+          }
+        },
+        {
+          "id": "INDEX.LIST",
+          "name": "INDEX.LIST",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/META-INF/INDEX.LIST",
+            "MD5": "5b9e16f4c69fbab3286972e2c3e57f51",
+            "path": "bin/eb1b-29ed-b859-354b/META-INF/INDEX.LIST"
+          }
+        },
+        {
+          "id": "MANIFEST.MF",
+          "name": "MANIFEST.MF",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/META-INF/MANIFEST.MF",
+            "MD5": "51941725f5769914e6c02efcff31f951",
+            "path": "bin/eb1b-29ed-b859-354b/META-INF/MANIFEST.MF"
+          }
+        },
+        {
+          "id": "module-info.class",
+          "name": "module-info.class",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/META-INF/versions/9/module-info.class",
+            "MD5": "09a3038739628fb091f1be90c2903fb7",
+            "path": "bin/eb1b-29ed-b859-354b/META-INF/versions/9/module-info.class"
+          }
+        },
+        {
+          "id": "OpenAL.dll",
+          "name": "OpenAL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1096192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL.dll",
+            "MD5": "a21338306c8027ebc459c57db8459777",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL.dll"
+          }
+        },
+        {
+          "id": "OpenAL.dll.git",
+          "name": "OpenAL.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL.dll.sha1",
+          "name": "OpenAL.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL.dll.sha1",
+            "MD5": "b1b872f6e2250ca8e24beb0cfafa62bc",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1006080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL32.dll",
+            "MD5": "bea36e6601b1b9c5dc85eb66cb438887",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.git",
+          "name": "OpenAL32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL32.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL32.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.sha1",
+          "name": "OpenAL32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/OpenAL32.dll.sha1",
+            "MD5": "6eef8babb8dd2c3ab1940937aa387ad6",
+            "path": "bin/eb1b-29ed-b859-354b/OpenAL32.dll.sha1"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/SAPIWrapper_x64.dll",
+            "MD5": "214a0bc5ae5882495d94f7779d64b323",
+            "path": "bin/eb1b-29ed-b859-354b/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 72192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/SAPIWrapper_x86.dll",
+            "MD5": "3d47e750e4ec109d441a427ab8b37614",
+            "path": "bin/eb1b-29ed-b859-354b/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "glfw.dll",
+          "name": "glfw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 355840,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw.dll",
+            "MD5": "532f9686b0b55b3d7cf9f6733f29ba28",
+            "path": "bin/eb1b-29ed-b859-354b/glfw.dll"
+          }
+        },
+        {
+          "id": "glfw.dll.git",
+          "name": "glfw.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/eb1b-29ed-b859-354b/glfw.dll.git"
+          }
+        },
+        {
+          "id": "glfw.dll.sha1",
+          "name": "glfw.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw.dll.sha1",
+            "MD5": "f6d4f19a41f245991382bbec2b787919",
+            "path": "bin/eb1b-29ed-b859-354b/glfw.dll.sha1"
+          }
+        },
+        {
+          "id": "glfw32.dll",
+          "name": "glfw32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 333824,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw32.dll",
+            "MD5": "5c7b7a7e9ceedd779ddf531ea58db8e9",
+            "path": "bin/eb1b-29ed-b859-354b/glfw32.dll"
+          }
+        },
+        {
+          "id": "glfw32.dll.git",
+          "name": "glfw32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw32.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/eb1b-29ed-b859-354b/glfw32.dll.git"
+          }
+        },
+        {
+          "id": "glfw32.dll.sha1",
+          "name": "glfw32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/glfw32.dll.sha1",
+            "MD5": "ea86d55e20e0f21818750c211f45339c",
+            "path": "bin/eb1b-29ed-b859-354b/glfw32.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc.dll",
+          "name": "jemalloc.dll",
+          "type": "File",
+          "artifact": {
+            "size": 254464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc.dll",
+            "MD5": "cdcaa2d4874a0aaab526c52e1fff2fea",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc.dll"
+          }
+        },
+        {
+          "id": "jemalloc.dll.git",
+          "name": "jemalloc.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc.dll.sha1",
+          "name": "jemalloc.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc.dll.sha1",
+            "MD5": "c75adb723dc1e8da6882e971de1a409b",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc32.dll",
+          "name": "jemalloc32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 195584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc32.dll",
+            "MD5": "93aeb5ec9f94134784373f370d295a61",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc32.dll"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.git",
+          "name": "jemalloc32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc32.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc32.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.sha1",
+          "name": "jemalloc32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/jemalloc32.dll.sha1",
+            "MD5": "fbbe79cdea2217e7472b685833415781",
+            "path": "bin/eb1b-29ed-b859-354b/jemalloc32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 449536,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl.dll",
+            "MD5": "310adc26c92b020fb6d2944092d81312",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll.git",
+          "name": "lwjgl.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl.dll.sha1",
+          "name": "lwjgl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl.dll.sha1",
+            "MD5": "4f7a6367c6c42a8a1ee061f44ba0684d",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl32.dll",
+          "name": "lwjgl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 429568,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl32.dll",
+            "MD5": "b8ea778d75b1150ec0eec59d764e57cd",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.git",
+          "name": "lwjgl32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl32.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl32.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.sha1",
+          "name": "lwjgl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl32.dll.sha1",
+            "MD5": "584f81d398eba50d1154fc339fbff717",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll",
+          "name": "lwjgl_opengl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 341504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_opengl.dll",
+            "MD5": "780ed18868c28c0c249379982ea3297a",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_opengl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll.sha1",
+          "name": "lwjgl_opengl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_opengl.dll.sha1",
+            "MD5": "6ee0f89c37c3fddc254fdb8c7bdb28b0",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_opengl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll",
+          "name": "lwjgl_opengl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 323584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_opengl32.dll",
+            "MD5": "68b37c18052fb770e77477e1e53a3428",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_opengl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll.sha1",
+          "name": "lwjgl_opengl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_opengl32.dll.sha1",
+            "MD5": "18d5a928ba6fa486f936cf3807a8668c",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_opengl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 500224,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_stb.dll",
+            "MD5": "236817b9ba4f101e25518f1158b7691f",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll.sha1",
+          "name": "lwjgl_stb.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_stb.dll.sha1",
+            "MD5": "3c0e66f2ec6b7185e3ef60115b79c3b5",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_stb.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll",
+          "name": "lwjgl_stb32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 442880,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_stb32.dll",
+            "MD5": "a0e616c8b75575f45497864d650005ec",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_stb32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll.sha1",
+          "name": "lwjgl_stb32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_stb32.dll.sha1",
+            "MD5": "f9fe876da47aa5278e9d5a43672fbd4f",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_stb32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll",
+          "name": "lwjgl_tinyfd.dll",
+          "type": "File",
+          "artifact": {
+            "size": 214016,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_tinyfd.dll",
+            "MD5": "5dc7452c51330beb7a178d7093cdac49",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_tinyfd.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll.sha1",
+          "name": "lwjgl_tinyfd.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_tinyfd.dll.sha1",
+            "MD5": "d1a6d5194c129c008dc8fdb9ff1a6c6a",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_tinyfd.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll",
+          "name": "lwjgl_tinyfd32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 182784,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_tinyfd32.dll",
+            "MD5": "ae277b62653af1bdbb27b73ea98970bb",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_tinyfd32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll.sha1",
+          "name": "lwjgl_tinyfd32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/eb1b-29ed-b859-354b/lwjgl_tinyfd32.dll.sha1",
+            "MD5": "38d57c396ac882a59d99a80e984bb5e3",
+            "path": "bin/eb1b-29ed-b859-354b/lwjgl_tinyfd32.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/ec08-0d12-a45d-fcc6/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/ec08-0d12-a45d-fcc6/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/ec08-0d12-a45d-fcc6/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 71168,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/SAPIWrapper_x86.dll",
+            "MD5": "41dfbc2efe788a9aa10317c1a1a19f63",
+            "path": "bin/ec08-0d12-a45d-fcc6/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/ec08-0d12-a45d-fcc6/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/ec08-0d12-a45d-fcc6/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/ec08-0d12-a45d-fcc6/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/ec08-0d12-a45d-fcc6/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/ec08-0d12-a45d-fcc6/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 306176,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/lwjgl.dll",
+            "MD5": "2644c73a80eb9f9fb7f81a2a5e546642",
+            "path": "bin/ec08-0d12-a45d-fcc6/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/ec08-0d12-a45d-fcc6/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/ec08-0d12-a45d-fcc6/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "INDEX.LIST",
+          "name": "INDEX.LIST",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/META-INF/INDEX.LIST",
+            "MD5": "5b9e16f4c69fbab3286972e2c3e57f51",
+            "path": "bin/f5f4-dcdf-1791-b344/META-INF/INDEX.LIST"
+          }
+        },
+        {
+          "id": "MANIFEST.MF",
+          "name": "MANIFEST.MF",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/META-INF/MANIFEST.MF",
+            "MD5": "51941725f5769914e6c02efcff31f951",
+            "path": "bin/f5f4-dcdf-1791-b344/META-INF/MANIFEST.MF"
+          }
+        },
+        {
+          "id": "module-info.class",
+          "name": "module-info.class",
+          "type": "File",
+          "artifact": {
+            "size": 194,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/META-INF/versions/9/module-info.class",
+            "MD5": "09a3038739628fb091f1be90c2903fb7",
+            "path": "bin/f5f4-dcdf-1791-b344/META-INF/versions/9/module-info.class"
+          }
+        },
+        {
+          "id": "OpenAL.dll",
+          "name": "OpenAL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1096192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL.dll",
+            "MD5": "a21338306c8027ebc459c57db8459777",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL.dll"
+          }
+        },
+        {
+          "id": "OpenAL.dll.git",
+          "name": "OpenAL.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL.dll.sha1",
+          "name": "OpenAL.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL.dll.sha1",
+            "MD5": "b1b872f6e2250ca8e24beb0cfafa62bc",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 1006080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL32.dll",
+            "MD5": "bea36e6601b1b9c5dc85eb66cb438887",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.git",
+          "name": "OpenAL32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL32.dll.git",
+            "MD5": "aab7d521c776b290c5eb725832d0c2b5",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL32.dll.git"
+          }
+        },
+        {
+          "id": "OpenAL32.dll.sha1",
+          "name": "OpenAL32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/OpenAL32.dll.sha1",
+            "MD5": "6eef8babb8dd2c3ab1940937aa387ad6",
+            "path": "bin/f5f4-dcdf-1791-b344/OpenAL32.dll.sha1"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/SAPIWrapper_x64.dll",
+            "MD5": "214a0bc5ae5882495d94f7779d64b323",
+            "path": "bin/f5f4-dcdf-1791-b344/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 72192,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/SAPIWrapper_x86.dll",
+            "MD5": "3d47e750e4ec109d441a427ab8b37614",
+            "path": "bin/f5f4-dcdf-1791-b344/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "glfw.dll",
+          "name": "glfw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 355840,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw.dll",
+            "MD5": "532f9686b0b55b3d7cf9f6733f29ba28",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw.dll"
+          }
+        },
+        {
+          "id": "glfw.dll.git",
+          "name": "glfw.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw.dll.git"
+          }
+        },
+        {
+          "id": "glfw.dll.sha1",
+          "name": "glfw.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw.dll.sha1",
+            "MD5": "f6d4f19a41f245991382bbec2b787919",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw.dll.sha1"
+          }
+        },
+        {
+          "id": "glfw32.dll",
+          "name": "glfw32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 333824,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw32.dll",
+            "MD5": "5c7b7a7e9ceedd779ddf531ea58db8e9",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw32.dll"
+          }
+        },
+        {
+          "id": "glfw32.dll.git",
+          "name": "glfw32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw32.dll.git",
+            "MD5": "9d58a11052847be02502653b9fb9c9bb",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw32.dll.git"
+          }
+        },
+        {
+          "id": "glfw32.dll.sha1",
+          "name": "glfw32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/glfw32.dll.sha1",
+            "MD5": "ea86d55e20e0f21818750c211f45339c",
+            "path": "bin/f5f4-dcdf-1791-b344/glfw32.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc.dll",
+          "name": "jemalloc.dll",
+          "type": "File",
+          "artifact": {
+            "size": 254464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc.dll",
+            "MD5": "cdcaa2d4874a0aaab526c52e1fff2fea",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc.dll"
+          }
+        },
+        {
+          "id": "jemalloc.dll.git",
+          "name": "jemalloc.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc.dll.sha1",
+          "name": "jemalloc.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc.dll.sha1",
+            "MD5": "c75adb723dc1e8da6882e971de1a409b",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc.dll.sha1"
+          }
+        },
+        {
+          "id": "jemalloc32.dll",
+          "name": "jemalloc32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 195584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc32.dll",
+            "MD5": "93aeb5ec9f94134784373f370d295a61",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc32.dll"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.git",
+          "name": "jemalloc32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc32.dll.git",
+            "MD5": "6f4c13fe58b839ee7f057c0213688d38",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc32.dll.git"
+          }
+        },
+        {
+          "id": "jemalloc32.dll.sha1",
+          "name": "jemalloc32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/jemalloc32.dll.sha1",
+            "MD5": "fbbe79cdea2217e7472b685833415781",
+            "path": "bin/f5f4-dcdf-1791-b344/jemalloc32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 449536,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl.dll",
+            "MD5": "310adc26c92b020fb6d2944092d81312",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll.git",
+          "name": "lwjgl.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl.dll.sha1",
+          "name": "lwjgl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl.dll.sha1",
+            "MD5": "4f7a6367c6c42a8a1ee061f44ba0684d",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl32.dll",
+          "name": "lwjgl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 429568,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl32.dll",
+            "MD5": "b8ea778d75b1150ec0eec59d764e57cd",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.git",
+          "name": "lwjgl32.dll.git",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl32.dll.git",
+            "MD5": "e3140dc7f0126f76158089d28efe8d90",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl32.dll.git"
+          }
+        },
+        {
+          "id": "lwjgl32.dll.sha1",
+          "name": "lwjgl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl32.dll.sha1",
+            "MD5": "584f81d398eba50d1154fc339fbff717",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll",
+          "name": "lwjgl_opengl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 341504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_opengl.dll",
+            "MD5": "780ed18868c28c0c249379982ea3297a",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_opengl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl.dll.sha1",
+          "name": "lwjgl_opengl.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_opengl.dll.sha1",
+            "MD5": "6ee0f89c37c3fddc254fdb8c7bdb28b0",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_opengl.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll",
+          "name": "lwjgl_opengl32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 323584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_opengl32.dll",
+            "MD5": "68b37c18052fb770e77477e1e53a3428",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_opengl32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_opengl32.dll.sha1",
+          "name": "lwjgl_opengl32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_opengl32.dll.sha1",
+            "MD5": "18d5a928ba6fa486f936cf3807a8668c",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_opengl32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 500224,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_stb.dll",
+            "MD5": "236817b9ba4f101e25518f1158b7691f",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll.sha1",
+          "name": "lwjgl_stb.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_stb.dll.sha1",
+            "MD5": "3c0e66f2ec6b7185e3ef60115b79c3b5",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_stb.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll",
+          "name": "lwjgl_stb32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 442880,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_stb32.dll",
+            "MD5": "a0e616c8b75575f45497864d650005ec",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_stb32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb32.dll.sha1",
+          "name": "lwjgl_stb32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_stb32.dll.sha1",
+            "MD5": "f9fe876da47aa5278e9d5a43672fbd4f",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_stb32.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll",
+          "name": "lwjgl_tinyfd.dll",
+          "type": "File",
+          "artifact": {
+            "size": 214016,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd.dll",
+            "MD5": "5dc7452c51330beb7a178d7093cdac49",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd.dll.sha1",
+          "name": "lwjgl_tinyfd.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd.dll.sha1",
+            "MD5": "d1a6d5194c129c008dc8fdb9ff1a6c6a",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd.dll.sha1"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll",
+          "name": "lwjgl_tinyfd32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 182784,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd32.dll",
+            "MD5": "ae277b62653af1bdbb27b73ea98970bb",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd32.dll"
+          }
+        },
+        {
+          "id": "lwjgl_tinyfd32.dll.sha1",
+          "name": "lwjgl_tinyfd32.dll.sha1",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd32.dll.sha1",
+            "MD5": "38d57c396ac882a59d99a80e984bb5e3",
+            "path": "bin/f5f4-dcdf-1791-b344/lwjgl_tinyfd32.dll.sha1"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "bin/fabe-4145-e453-94a0/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "bin/fabe-4145-e453-94a0/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "bin/fabe-4145-e453-94a0/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 71168,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/SAPIWrapper_x86.dll",
+            "MD5": "41dfbc2efe788a9aa10317c1a1a19f63",
+            "path": "bin/fabe-4145-e453-94a0/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "bin/fabe-4145-e453-94a0/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "bin/fabe-4145-e453-94a0/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "bin/fabe-4145-e453-94a0/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "bin/fabe-4145-e453-94a0/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "bin/fabe-4145-e453-94a0/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 306176,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/lwjgl.dll",
+            "MD5": "2644c73a80eb9f9fb7f81a2a5e546642",
+            "path": "bin/fabe-4145-e453-94a0/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/lwjgl64.dll",
+            "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
+            "path": "bin/fabe-4145-e453-94a0/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 3993,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "f44079f7847ce0af753cd3558ae3f519",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "CustomNpcs.cfg",
+          "name": "CustomNpcs.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1583,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomNpcs.cfg",
+            "MD5": "301c933c723f305b1705487f967d2ff1",
+            "path": "config/CustomNpcs.cfg"
+          }
+        },
+        {
+          "id": "DIAdvancedCompatibility.cfg",
+          "name": "DIAdvancedCompatibility.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 99586,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/DIAdvancedCompatibility.cfg",
+            "MD5": "58f04f2337d9465b64aaadba43cd1982",
+            "path": "config/DIAdvancedCompatibility.cfg"
+          }
+        },
+        {
+          "id": "VariedCommodities.cfg",
+          "name": "VariedCommodities.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 136,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/VariedCommodities.cfg",
+            "MD5": "cfb17c0b4ee1d3739441cea45710f583",
+            "path": "config/VariedCommodities.cfg"
+          }
+        },
+        {
+          "id": "Waystones.cfg",
+          "name": "Waystones.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4410,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/Waystones.cfg",
+            "MD5": "8ba69450137561a17ace3e943921ea1c",
+            "path": "config/Waystones.cfg"
+          }
+        },
+        {
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 2064,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/ambientsounds-client.json",
+            "MD5": "1d009ae615a42405185836ae2a0cc588",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "ambientsounds.cfg",
+          "name": "ambientsounds.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 6243,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/ambientsounds.cfg",
+            "MD5": "36c3ff20b120f532a0e013d933a17f3e",
+            "path": "config/ambientsounds.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 7137,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/client.cfg",
+            "MD5": "1de58d47acb1e4bbad00a5dbb2c17533",
+            "path": "config/armourers_workshop/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 8846,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/common.cfg",
+            "MD5": "bbfc6691e017673b5e1f6adeacc4cb46",
+            "path": "config/armourers_workshop/common.cfg"
+          }
+        },
+        {
+          "id": "overrides.cfg",
+          "name": "overrides.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1150,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/overrides.cfg",
+            "MD5": "a1cc4609fc820be6db9baec2bc54b7cd",
+            "path": "config/armourers_workshop/overrides.cfg"
+          }
+        },
+        {
+          "id": "colorfulhealthbar.cfg",
+          "name": "colorfulhealthbar.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 630,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/colorfulhealthbar.cfg",
+            "MD5": "eefadc91f186c6fe6514c9dd9851314e",
+            "path": "config/colorfulhealthbar.cfg"
+          }
+        },
+        {
+          "id": "creativecore-client.json",
+          "name": "creativecore-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/creativecore-client.json",
+            "MD5": "057bbac7b2b20176faa1f70d4f1b2abf",
+            "path": "config/creativecore-client.json"
+          }
+        },
+        {
+          "id": "damageindicatorsmod.cfg",
+          "name": "damageindicatorsmod.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4009,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/damageindicatorsmod.cfg",
+            "MD5": "0cbec9c407d537774c88ee278455a10c",
+            "path": "config/damageindicatorsmod.cfg"
+          }
+        },
+        {
+          "id": "decocraft.cfg",
+          "name": "decocraft.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 203,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/decocraft.cfg",
+            "MD5": "82ce76b8df794caffda0ff843d41c8a9",
+            "path": "config/decocraft.cfg"
+          }
+        },
+        {
+          "id": "dungeontactics.cfg",
+          "name": "dungeontactics.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 24861,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dungeontactics.cfg",
+            "MD5": "231e569f44aa79e6edef83fe21202b3d",
+            "path": "config/dungeontactics.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights.cfg",
+          "name": "dynamiclights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 80,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights.cfg",
+            "MD5": "5b96e26d020e5e653c9fbda43660fb52",
+            "path": "config/dynamiclights.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_dropitems.cfg",
+          "name": "dynamiclights_dropitems.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 498,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_dropitems.cfg",
+            "MD5": "dc88c2b1f9737dafc2ba120fcc5506e6",
+            "path": "config/dynamiclights_dropitems.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_entityclasses.cfg",
+          "name": "dynamiclights_entityclasses.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 185,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_entityclasses.cfg",
+            "MD5": "e4f7060b07ad5d485b2dafc3bc9117bf",
+            "path": "config/dynamiclights_entityclasses.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_floodlights.cfg",
+          "name": "dynamiclights_floodlights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 230,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_floodlights.cfg",
+            "MD5": "9688bbad6ba27d97c679415eae7e8166",
+            "path": "config/dynamiclights_floodlights.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_mobequipment.cfg",
+          "name": "dynamiclights_mobequipment.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 412,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_mobequipment.cfg",
+            "MD5": "0aa4de3d8db546fd3410c8063e7bae42",
+            "path": "config/dynamiclights_mobequipment.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_onfire.cfg",
+          "name": "dynamiclights_onfire.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 195,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_onfire.cfg",
+            "MD5": "500018541f6d5d1ee9aaffa34dffc6fa",
+            "path": "config/dynamiclights_onfire.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_otherplayers.cfg",
+          "name": "dynamiclights_otherplayers.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 453,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_otherplayers.cfg",
+            "MD5": "0e2445350c3879bee8eb1316d4a45f04",
+            "path": "config/dynamiclights_otherplayers.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_theplayer.cfg",
+          "name": "dynamiclights_theplayer.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 419,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dynamiclights_theplayer.cfg",
+            "MD5": "6173dc7947c70ad78c510d80f8a55b72",
+            "path": "config/dynamiclights_theplayer.cfg"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3865,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/forge.cfg",
+            "MD5": "f171671570ac5e1c6ce1717ff70c8633",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2155,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/forgeChunkLoading.cfg",
+            "MD5": "255d6e9355788641e30db10e3c0b8551",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "itemBlacklist.cfg",
+          "name": "itemBlacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 662,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/jei/itemBlacklist.cfg",
+            "MD5": "bf1c9b408cfee5e4b4d015a5f0438783",
+            "path": "config/jei/itemBlacklist.cfg"
+          }
+        },
+        {
+          "id": "jei.cfg",
+          "name": "jei.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2949,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/jei/jei.cfg",
+            "MD5": "8e247d9b38e95f342ab0d81160d24224",
+            "path": "config/jei/jei.cfg"
+          }
+        },
+        {
+          "id": "searchColors.cfg",
+          "name": "searchColors.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1941,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/jei/searchColors.cfg",
+            "MD5": "2cf9560152e9957b6e7e62d4e36107cb",
+            "path": "config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "worldSettings.cfg",
+          "name": "worldSettings.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 461,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/jei/worldSettings.cfg",
+            "MD5": "d36529d6aeb55ece37e70516fc3a965f",
+            "path": "config/jei/worldSettings.cfg"
+          }
+        },
+        {
+          "id": "journeymap_ModInfo.cfg",
+          "name": "journeymap_ModInfo.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 370,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/journeymap_ModInfo.cfg",
+            "MD5": "a0517950c9ac6df9095d66536200b3c7",
+            "path": "config/journeymap_ModInfo.cfg"
+          }
+        },
+        {
+          "id": "journeymap_server.cfg",
+          "name": "journeymap_server.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 615,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/journeymap_server.cfg",
+            "MD5": "704e8c040987675a9ac814abe9b7cdc6",
+            "path": "config/journeymap_server.cfg"
+          }
+        },
+        {
+          "id": "ptrmodellib.cfg",
+          "name": "ptrmodellib.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/ptrmodellib.cfg",
+            "MD5": "87cc5cf17373c3a7eba50a7aad317dc7",
+            "path": "config/ptrmodellib.cfg"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 325098,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/Logo.png",
+            "MD5": "10b7415bda1fadb2dd70e226992f0b41",
+            "path": "config/resources/modpack/Logo.png"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 132116,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/background.png",
+            "MD5": "926c14904e66e4e262cc28118a634672",
+            "path": "config/resources/modpack/background.png"
+          }
+        },
+        {
+          "id": "bigblk.png",
+          "name": "bigblk.png",
+          "type": "File",
+          "artifact": {
+            "size": 19206,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/bigblk.png",
+            "MD5": "63e0d6da70a59fb520f6d354d033167f",
+            "path": "config/resources/modpack/bigblk.png"
+          }
+        },
+        {
+          "id": "buttonbg.png",
+          "name": "buttonbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/buttonbg.png",
+            "MD5": "6eb0f742beae7e566114d4a8443e0605",
+            "path": "config/resources/modpack/buttonbg.png"
+          }
+        },
+        {
+          "id": "buttonbg2.png",
+          "name": "buttonbg2.png",
+          "type": "File",
+          "artifact": {
+            "size": 240,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/buttonbg2.png",
+            "MD5": "6101c0910d8aef7370bff1ac60a62f73",
+            "path": "config/resources/modpack/buttonbg2.png"
+          }
+        },
+        {
+          "id": "buttonbg3.png",
+          "name": "buttonbg3.png",
+          "type": "File",
+          "artifact": {
+            "size": 17722,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/buttonbg3.png",
+            "MD5": "dfd3f5b01cfb57bdf40da34696e10bc7",
+            "path": "config/resources/modpack/buttonbg3.png"
+          }
+        },
+        {
+          "id": "buttonblk.png",
+          "name": "buttonblk.png",
+          "type": "File",
+          "artifact": {
+            "size": 19694,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/buttonblk.png",
+            "MD5": "9c6e547d74cfbf045311f5cf8d452b2f",
+            "path": "config/resources/modpack/buttonblk.png"
+          }
+        },
+        {
+          "id": "buttonylw.png",
+          "name": "buttonylw.png",
+          "type": "File",
+          "artifact": {
+            "size": 19243,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/buttonylw.png",
+            "MD5": "dcb35c11764d23fdb12f5258991bd2cd",
+            "path": "config/resources/modpack/buttonylw.png"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 147163,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_0.png",
+            "MD5": "e4e3e9c26ff750bac3efaab0064596b3",
+            "path": "config/resources/modpack/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 134007,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_1.png",
+            "MD5": "020536ad8f02fb5ba8f611032b3866ae",
+            "path": "config/resources/modpack/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 143834,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_2.png",
+            "MD5": "df87d7ebc58e9ffcfb16dd8bcf6d53c5",
+            "path": "config/resources/modpack/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 136714,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_3.png",
+            "MD5": "893b9329924c5c1a9b9f1274cb6443f1",
+            "path": "config/resources/modpack/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 105247,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_4.png",
+            "MD5": "33fb987d3f29fbcca33b0639ab1d2c39",
+            "path": "config/resources/modpack/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 148638,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/panorama/panorama_5.png",
+            "MD5": "0823bc0b2ca4fb9187f9b345c331c812",
+            "path": "config/resources/modpack/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "smallylw.png",
+          "name": "smallylw.png",
+          "type": "File",
+          "artifact": {
+            "size": 19741,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/resources/modpack/smallylw.png",
+            "MD5": "2f5578da50e3ecdf3ced26ba5e77ccb7",
+            "path": "config/resources/modpack/smallylw.png"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 358,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/splash.properties",
+            "MD5": "2a3d9740caa4ae90f6861ae92e43e0a0",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/waila/theme/dark.json",
+            "MD5": "91f7d992164fa6c216f5a23059b2137a",
+            "path": "config/waila/theme/dark.json"
+          }
+        },
+        {
+          "id": "vanilla.json",
+          "name": "vanilla.json",
+          "type": "File",
+          "artifact": {
+            "size": 140,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/waila/theme/vanilla.json",
+            "MD5": "93f67ec8cc14f861d01b4b930b49525b",
+            "path": "config/waila/theme/vanilla.json"
+          }
+        },
+        {
+          "id": "waila.cfg",
+          "name": "waila.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2954,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/waila/waila.cfg",
+            "MD5": "047c5d62d420612f38d3994f8fafc829",
+            "path": "config/waila/waila.cfg"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3252,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/options.txt",
+            "MD5": "7244236ec3bf8961656ebe9633a252ab",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Logo.png",
+          "name": "Logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 325098,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/Logo.png",
+            "MD5": "10b7415bda1fadb2dd70e226992f0b41",
+            "path": "resources/modpack/Logo.png"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 132116,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/background.png",
+            "MD5": "926c14904e66e4e262cc28118a634672",
+            "path": "resources/modpack/background.png"
+          }
+        },
+        {
+          "id": "bigblk.png",
+          "name": "bigblk.png",
+          "type": "File",
+          "artifact": {
+            "size": 19206,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/bigblk.png",
+            "MD5": "63e0d6da70a59fb520f6d354d033167f",
+            "path": "resources/modpack/bigblk.png"
+          }
+        },
+        {
+          "id": "buttonbg.png",
+          "name": "buttonbg.png",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg.png",
+            "MD5": "6eb0f742beae7e566114d4a8443e0605",
+            "path": "resources/modpack/buttonbg.png"
+          }
+        },
+        {
+          "id": "buttonbg2.png",
+          "name": "buttonbg2.png",
+          "type": "File",
+          "artifact": {
+            "size": 240,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg2.png",
+            "MD5": "6101c0910d8aef7370bff1ac60a62f73",
+            "path": "resources/modpack/buttonbg2.png"
+          }
+        },
+        {
+          "id": "buttonbg3.png",
+          "name": "buttonbg3.png",
+          "type": "File",
+          "artifact": {
+            "size": 17722,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg3.png",
+            "MD5": "dfd3f5b01cfb57bdf40da34696e10bc7",
+            "path": "resources/modpack/buttonbg3.png"
+          }
+        },
+        {
+          "id": "buttonblk.png",
+          "name": "buttonblk.png",
+          "type": "File",
+          "artifact": {
+            "size": 19694,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonblk.png",
+            "MD5": "9c6e547d74cfbf045311f5cf8d452b2f",
+            "path": "resources/modpack/buttonblk.png"
+          }
+        },
+        {
+          "id": "buttonylw.png",
+          "name": "buttonylw.png",
+          "type": "File",
+          "artifact": {
+            "size": 19243,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonylw.png",
+            "MD5": "dcb35c11764d23fdb12f5258991bd2cd",
+            "path": "resources/modpack/buttonylw.png"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 147163,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_0.png",
+            "MD5": "e4e3e9c26ff750bac3efaab0064596b3",
+            "path": "resources/modpack/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 134007,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_1.png",
+            "MD5": "020536ad8f02fb5ba8f611032b3866ae",
+            "path": "resources/modpack/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 143834,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_2.png",
+            "MD5": "df87d7ebc58e9ffcfb16dd8bcf6d53c5",
+            "path": "resources/modpack/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 136714,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_3.png",
+            "MD5": "893b9329924c5c1a9b9f1274cb6443f1",
+            "path": "resources/modpack/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 105247,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_4.png",
+            "MD5": "33fb987d3f29fbcca33b0639ab1d2c39",
+            "path": "resources/modpack/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 148638,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_5.png",
+            "MD5": "0823bc0b2ca4fb9187f9b345c331c812",
+            "path": "resources/modpack/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "smallylw.png",
+          "name": "smallylw.png",
+          "type": "File",
+          "artifact": {
+            "size": 19741,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/smallylw.png",
+            "MD5": "2f5578da50e3ecdf3ced26ba5e77ccb7",
+            "path": "resources/modpack/smallylw.png"
+          }
+        },
+        {
+          "id": "resources.zip",
+          "name": "resources.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1291715,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources.zip",
+            "MD5": "6558cd6d93991de46681640e3154d0be",
+            "path": "resources.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
