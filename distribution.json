@@ -4174,17 +4174,6 @@
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 3252,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/options.txt",
-            "MD5": "7244236ec3bf8961656ebe9633a252ab",
-            "path": "options.txt"
-          }
-        },
-        {
           "id": "Logo.png",
           "name": "Logo.png",
           "type": "File",
