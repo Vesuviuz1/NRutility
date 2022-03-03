@@ -266,6 +266,16 @@
           }
         },
         {
+          "id": "com.ayutaki:chinjufumod:6.1.2@jar",
+          "name": "ChinjufuMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14105445,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ChinjufuMod[1.12.2]6.1.2.jar",
+            "MD5": "a2165e8a11739855958d1d20369641df"
+          }
+        },
+        {
           "id": "locusway.colorfulhealthbar:colorfulhealthbar:0.0.4@jar",
           "name": "Colorful Health Bar",
           "type": "ForgeMod",
@@ -273,6 +283,16 @@
             "size": 18771,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/colorfulhealthbar-0.0.4.jar",
             "MD5": "066456d4828728c899362cb28c1025ca"
+          }
+        },
+        {
+          "id": "lain.mods.cos:cosmeticarmorreworked:1.12.2-v5a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72111,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CosmeticArmorReworked-1.12.2-v5a.jar",
+            "MD5": "18d7753f69e6f8fed9350b4d908008a9"
           }
         },
         {
@@ -3544,7 +3564,7 @@
           "artifact": {
             "size": 3993,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "f44079f7847ce0af753cd3558ae3f519",
+            "MD5": "e445acf9aca525570d7e5d88f695e1bf",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -3648,6 +3668,28 @@
           }
         },
         {
+          "id": "chinjufumod.cfg",
+          "name": "chinjufumod.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1282,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/chinjufumod.cfg",
+            "MD5": "17e8c2b2a8e39cac87fe1706b362e186",
+            "path": "config/chinjufumod.cfg"
+          }
+        },
+        {
+          "id": "chinjufumod.toml",
+          "name": "chinjufumod.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1348,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/chinjufumod.toml",
+            "MD5": "61ec366b60c13d59d8de3b6c369c12ec",
+            "path": "config/chinjufumod.toml"
+          }
+        },
+        {
           "id": "colorfulhealthbar.cfg",
           "name": "colorfulhealthbar.cfg",
           "type": "File",
@@ -3656,6 +3698,39 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/colorfulhealthbar.cfg",
             "MD5": "eefadc91f186c6fe6514c9dd9851314e",
             "path": "config/colorfulhealthbar.cfg"
+          }
+        },
+        {
+          "id": "cosmeticarmorreworked-client.toml",
+          "name": "cosmeticarmorreworked-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1230,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/cosmeticarmorreworked-client.toml",
+            "MD5": "efabbdb6c08be2cbf33d14c8f5d14a27",
+            "path": "config/cosmeticarmorreworked-client.toml"
+          }
+        },
+        {
+          "id": "cosmeticarmorreworked-common.toml",
+          "name": "cosmeticarmorreworked-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 379,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/cosmeticarmorreworked-common.toml",
+            "MD5": "72142fb70ba132624cf5a6fb12ed7805",
+            "path": "config/cosmeticarmorreworked-common.toml"
+          }
+        },
+        {
+          "id": "cosmeticarmorreworked.cfg",
+          "name": "cosmeticarmorreworked.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1438,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/cosmeticarmorreworked.cfg",
+            "MD5": "8e9d74cd2a923bcb164d3e79d16a2b0b",
+            "path": "config/cosmeticarmorreworked.cfg"
           }
         },
         {
