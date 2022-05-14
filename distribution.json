@@ -316,6 +316,16 @@
           }
         },
         {
+          "id": "drzhark.customspawner:CustomSpawner:3.11.4@jar",
+          "name": "DrZhark's CustomSpawner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 722270,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomMobSpawner-3.11.5.jar",
+            "MD5": "fec50567081c942dfab330a60aac695a"
+          }
+        },
+        {
           "id": "noppes.npcs:customnpcs:1.12@jar",
           "name": "CustomNPCs",
           "type": "ForgeMod",
@@ -333,6 +343,16 @@
             "size": 16976718,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
             "MD5": "083cf0c798ebfd6065c2db0af0419c12"
+          }
+        },
+        {
+          "id": "drzhark.mocreatures:mocreatures:12.0.5@jar",
+          "name": "DrZhark's Mo'Creatures Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22440403,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DrZharks%20MoCreatures%20Mod-12.0.5.jar",
+            "MD5": "b02c58883f3d2956017639c6000d071e"
           }
         },
         {
@@ -3588,6 +3608,28 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/DIAdvancedCompatibility.cfg",
             "MD5": "58f04f2337d9465b64aaadba43cd1982",
             "path": "config/DIAdvancedCompatibility.cfg"
+          }
+        },
+        {
+          "id": "MoCSettings.cfg",
+          "name": "MoCSettings.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4046,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/MoCreatures/MoCSettings.cfg",
+            "MD5": "b7e48c09b45f149365f85e5f45964193",
+            "path": "config/MoCreatures/MoCSettings.cfg"
+          }
+        },
+        {
+          "id": "MoCreatures.cfg",
+          "name": "MoCreatures.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 12242,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/MoCreatures/MoCreatures.cfg",
+            "MD5": "7a0d2aa3ad3733a099d00dfeab9633c4",
+            "path": "config/MoCreatures/MoCreatures.cfg"
           }
         },
         {
