@@ -246,8 +246,8 @@
           }
         },
         {
-          "id": "com.creativemd:ambientsounds:3.0@jar",
-          "name": "AmbientSounds",
+          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0",
+          "name": "Armourers-Workshop-1.12.2-0.51.0",
           "type": "ForgeMod",
           "artifact": {
             "size": 76507517,
