@@ -256,8 +256,8 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
@@ -406,13 +406,13 @@
           }
         },
         {
-          "id": "net.mcreator:narutomod:0.2.7-beta@jar",
+          "id": "net.mcreator:narutomod:0.2.8-beta@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 16793372,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoMod-1.12.2-0.2.7.beta.jar",
-            "MD5": "c5a0a642543f8b7f6654dd404906b462"
+            "size": 16953632,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoMod-1.12.2-0.2.8.beta.jar",
+            "MD5": "d3d4f0aaecc596e7c457c58851453b5c"
           }
         },
         {
