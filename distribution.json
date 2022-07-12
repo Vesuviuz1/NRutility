@@ -436,6 +436,16 @@
           }
         },
         {
+          "id": "bq_npc_integration.core:bq_npc_integration:3.4.32@jar",
+          "name": "NPC Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 65981,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NPCIntegration-3.4.32.jar",
+            "MD5": "ff84f6c928a06371b2b4b90b7f369658"
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
           "name": "OptiFine 1.12.2_HD_U_G5",
           "type": "ForgeMod",
@@ -473,6 +483,16 @@
             "size": 16612,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "bq_standard.core:bq_standard:3.4.173@jar",
+          "name": "Standard Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460454,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/StandardExpansion-3.4.173.jar",
+            "MD5": "a05ed445a2c384e429c124b673cbda2a"
           }
         },
         {
