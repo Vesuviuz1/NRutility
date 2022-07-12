@@ -436,13 +436,13 @@
           }
         },
         {
-          "id": "bq_npc_integration.core:bq_npc_integration:3.4.32@jar",
+          "id": "bq_npc_integration.core:bq_npc_integration:3.4.34@jar",
           "name": "NPC Integration",
           "type": "ForgeMod",
           "artifact": {
-            "size": 65981,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NPCIntegration-3.4.32.jar",
-            "MD5": "ff84f6c928a06371b2b4b90b7f369658"
+            "size": 63674,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NPCIntegration-3.4.34%20(1).jar",
+            "MD5": "39f8bde2120b5200260f1ce1b3f62736"
           }
         },
         {
