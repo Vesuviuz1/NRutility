@@ -266,6 +266,16 @@
           }
         },
         {
+          "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155196,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/BetterFps-1.4.8.jar",
+            "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
+          }
+        },
+        {
           "id": "betterquesting.core:betterquesting:3.5.329@jar",
           "name": "Better Questing",
           "type": "ForgeMod",
