@@ -256,13 +256,23 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
             "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
+          "id": "betterquesting.core:betterquesting:3.5.329@jar",
+          "name": "Better Questing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1425671,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/BetterQuesting-3.5.329.jar",
+            "MD5": "85da6feb96533799ed726f22f09682fc"
           }
         },
         {
@@ -433,6 +443,16 @@
             "size": 169749,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
             "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
+          }
+        },
+        {
+          "id": "drethic.questbook:questbook:3.1.1-1.12@jar",
+          "name": "Better Questing Quest Book",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20203,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/questbook-3.1.1-1.12.jar",
+            "MD5": "aa802b89cd4244d0bfaff4b60a0f5654"
           }
         },
         {
