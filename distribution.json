@@ -256,8 +256,8 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
@@ -3757,6 +3757,28 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/armourers_workshop/overrides.cfg",
             "MD5": "a1cc4609fc820be6db9baec2bc54b7cd",
             "path": "config/armourers_workshop/overrides.cfg"
+          }
+        },
+        {
+          "id": "questbook.cfg",
+          "name": "questbook.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting/questbook.cfg",
+            "MD5": "c1570c8cd795bb7a9752f77605463a35",
+            "path": "config/betterquesting/questbook.cfg"
+          }
+        },
+        {
+          "id": "main_title.png",
+          "name": "main_title.png",
+          "type": "File",
+          "artifact": {
+            "size": 2201253,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting/resources/narutorepublic/textures/gui/main_title.png",
+            "MD5": "819283090ffd75f87e847121cca85672",
+            "path": "config/betterquesting/resources/narutorepublic/textures/gui/main_title.png"
           }
         },
         {
