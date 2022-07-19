@@ -256,8 +256,8 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
@@ -3775,9 +3775,9 @@
           "name": "main_title.png",
           "type": "File",
           "artifact": {
-            "size": 638344,
+            "size": 1244339,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting/resources/narutorepublic/textures/gui/main_title.png",
-            "MD5": "9736207c27207687821e0d5274b98922",
+            "MD5": "367becaa7efe3a32c15a1bd5ee3bb95c",
             "path": "config/betterquesting/resources/narutorepublic/textures/gui/main_title.png"
           }
         },
