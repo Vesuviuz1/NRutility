@@ -286,16 +286,6 @@
           }
         },
         {
-          "id": "com.ayutaki:chinjufumod:6.1.2@jar",
-          "name": "ChinjufuMod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14105445,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ChinjufuMod[1.12.2]6.1.2.jar",
-            "MD5": "a2165e8a11739855958d1d20369641df"
-          }
-        },
-        {
           "id": "locusway.colorfulhealthbar:colorfulhealthbar:0.0.4@jar",
           "name": "Colorful Health Bar",
           "type": "ForgeMod",
@@ -483,6 +473,16 @@
             "size": 16612,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "mods.flammpfeil.slashblade:flammpfeil.slashblade:mc1.12-r33@jar",
+          "name": "SlashBlade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3729004,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/SlashBlade-mc1.12-r33%20(1).jar",
+            "MD5": "ad6f5cc67139afc1b2350903ad1ef558"
           }
         },
         {
