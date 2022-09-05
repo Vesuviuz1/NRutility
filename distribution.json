@@ -3765,9 +3765,9 @@
           "name": "main_title.png",
           "type": "File",
           "artifact": {
-            "size": 1244339,
+            "size": 1701095,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting/resources/narutorepublic/textures/gui/main_title.png",
-            "MD5": "367becaa7efe3a32c15a1bd5ee3bb95c",
+            "MD5": "6ce6b941a83f6a83e0fbce9ce6762416",
             "path": "config/betterquesting/resources/narutorepublic/textures/gui/main_title.png"
           }
         },
