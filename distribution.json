@@ -326,16 +326,6 @@
           }
         },
         {
-          "id": "drzhark.customspawner:CustomSpawner:3.11.4@jar",
-          "name": "DrZhark's CustomSpawner",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 722270,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomMobSpawner-3.11.5.jar",
-            "MD5": "fec50567081c942dfab330a60aac695a"
-          }
-        },
-        {
           "id": "noppes.npcs:customnpcs:1.12@jar",
           "name": "CustomNPCs",
           "type": "ForgeMod",
