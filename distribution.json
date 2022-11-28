@@ -356,6 +356,16 @@
           }
         },
         {
+          "id": "pegbeard.dungeontactics:dungeontactics:DT-0.16.9@jar",
+          "name": "DungeonTactics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2797080,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DungeonTactics-1.12.2-0.16.9.jar",
+            "MD5": "0e87f86e10338ad36cdc9a1b4e56d78b"
+          }
+        },
+        {
           "id": "atomicstryker.dynamiclights.client:DynamicLights:1.4.9@jar",
           "name": "Dynamic Lights",
           "type": "ForgeMod",
