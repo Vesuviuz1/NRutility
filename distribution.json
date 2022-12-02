@@ -346,16 +346,6 @@
           }
         },
         {
-          "id": "drzhark.mocreatures:mocreatures:12.0.5@jar",
-          "name": "DrZhark's Mo'Creatures Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 22440403,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DrZharks%20MoCreatures%20Mod-12.0.5.jar",
-            "MD5": "b02c58883f3d2956017639c6000d071e"
-          }
-        },
-        {
           "id": "pegbeard.dungeontactics:dungeontactics:DT-0.16.9@jar",
           "name": "DungeonTactics",
           "type": "ForgeMod",
