@@ -3611,6 +3611,17 @@
           }
         },
         {
+          "id": "NarutoMod.cfg",
+          "name": "NarutoMod.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 268,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/NarutoMod.cfg",
+            "MD5": "67ed0c37f90c5a547a10bd01168a35fe",
+            "path": "config/NarutoMod.cfg"
+          }
+        },
+        {
           "id": "VariedCommodities.cfg",
           "name": "VariedCommodities.cfg",
           "type": "File",
@@ -3710,6 +3721,28 @@
           }
         },
         {
+          "id": "betterquesting.cfg",
+          "name": "betterquesting.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 584,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting.cfg",
+            "MD5": "8583ae232b69093ea7d05634c9744a3d",
+            "path": "config/betterquesting.cfg"
+          }
+        },
+        {
+          "id": "bq_standard.cfg",
+          "name": "bq_standard.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/bq_standard.cfg",
+            "MD5": "f9e36794d12fe7fffedab98dfe2d49f7",
+            "path": "config/bq_standard.cfg"
+          }
+        },
+        {
           "id": "colorfulhealthbar.cfg",
           "name": "colorfulhealthbar.cfg",
           "type": "File",
@@ -3718,28 +3751,6 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/colorfulhealthbar.cfg",
             "MD5": "eefadc91f186c6fe6514c9dd9851314e",
             "path": "config/colorfulhealthbar.cfg"
-          }
-        },
-        {
-          "id": "cosmeticarmorreworked-client.toml",
-          "name": "cosmeticarmorreworked-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1230,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/cosmeticarmorreworked-client.toml",
-            "MD5": "efabbdb6c08be2cbf33d14c8f5d14a27",
-            "path": "config/cosmeticarmorreworked-client.toml"
-          }
-        },
-        {
-          "id": "cosmeticarmorreworked-common.toml",
-          "name": "cosmeticarmorreworked-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 379,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/cosmeticarmorreworked-common.toml",
-            "MD5": "72142fb70ba132624cf5a6fb12ed7805",
-            "path": "config/cosmeticarmorreworked-common.toml"
           }
         },
         {
@@ -4180,171 +4191,6 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/waila/waila.cfg",
             "MD5": "047c5d62d420612f38d3994f8fafc829",
             "path": "config/waila/waila.cfg"
-          }
-        },
-        {
-          "id": "Logo.png",
-          "name": "Logo.png",
-          "type": "File",
-          "artifact": {
-            "size": 325098,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/Logo.png",
-            "MD5": "10b7415bda1fadb2dd70e226992f0b41",
-            "path": "resources/modpack/Logo.png"
-          }
-        },
-        {
-          "id": "background.png",
-          "name": "background.png",
-          "type": "File",
-          "artifact": {
-            "size": 132116,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/background.png",
-            "MD5": "926c14904e66e4e262cc28118a634672",
-            "path": "resources/modpack/background.png"
-          }
-        },
-        {
-          "id": "bigblk.png",
-          "name": "bigblk.png",
-          "type": "File",
-          "artifact": {
-            "size": 19206,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/bigblk.png",
-            "MD5": "63e0d6da70a59fb520f6d354d033167f",
-            "path": "resources/modpack/bigblk.png"
-          }
-        },
-        {
-          "id": "buttonbg.png",
-          "name": "buttonbg.png",
-          "type": "File",
-          "artifact": {
-            "size": 225,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg.png",
-            "MD5": "6eb0f742beae7e566114d4a8443e0605",
-            "path": "resources/modpack/buttonbg.png"
-          }
-        },
-        {
-          "id": "buttonbg2.png",
-          "name": "buttonbg2.png",
-          "type": "File",
-          "artifact": {
-            "size": 240,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg2.png",
-            "MD5": "6101c0910d8aef7370bff1ac60a62f73",
-            "path": "resources/modpack/buttonbg2.png"
-          }
-        },
-        {
-          "id": "buttonbg3.png",
-          "name": "buttonbg3.png",
-          "type": "File",
-          "artifact": {
-            "size": 17722,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonbg3.png",
-            "MD5": "dfd3f5b01cfb57bdf40da34696e10bc7",
-            "path": "resources/modpack/buttonbg3.png"
-          }
-        },
-        {
-          "id": "buttonblk.png",
-          "name": "buttonblk.png",
-          "type": "File",
-          "artifact": {
-            "size": 19694,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonblk.png",
-            "MD5": "9c6e547d74cfbf045311f5cf8d452b2f",
-            "path": "resources/modpack/buttonblk.png"
-          }
-        },
-        {
-          "id": "buttonylw.png",
-          "name": "buttonylw.png",
-          "type": "File",
-          "artifact": {
-            "size": 19243,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/buttonylw.png",
-            "MD5": "dcb35c11764d23fdb12f5258991bd2cd",
-            "path": "resources/modpack/buttonylw.png"
-          }
-        },
-        {
-          "id": "panorama_0.png",
-          "name": "panorama_0.png",
-          "type": "File",
-          "artifact": {
-            "size": 147163,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_0.png",
-            "MD5": "e4e3e9c26ff750bac3efaab0064596b3",
-            "path": "resources/modpack/panorama/panorama_0.png"
-          }
-        },
-        {
-          "id": "panorama_1.png",
-          "name": "panorama_1.png",
-          "type": "File",
-          "artifact": {
-            "size": 134007,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_1.png",
-            "MD5": "020536ad8f02fb5ba8f611032b3866ae",
-            "path": "resources/modpack/panorama/panorama_1.png"
-          }
-        },
-        {
-          "id": "panorama_2.png",
-          "name": "panorama_2.png",
-          "type": "File",
-          "artifact": {
-            "size": 143834,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_2.png",
-            "MD5": "df87d7ebc58e9ffcfb16dd8bcf6d53c5",
-            "path": "resources/modpack/panorama/panorama_2.png"
-          }
-        },
-        {
-          "id": "panorama_3.png",
-          "name": "panorama_3.png",
-          "type": "File",
-          "artifact": {
-            "size": 136714,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_3.png",
-            "MD5": "893b9329924c5c1a9b9f1274cb6443f1",
-            "path": "resources/modpack/panorama/panorama_3.png"
-          }
-        },
-        {
-          "id": "panorama_4.png",
-          "name": "panorama_4.png",
-          "type": "File",
-          "artifact": {
-            "size": 105247,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_4.png",
-            "MD5": "33fb987d3f29fbcca33b0639ab1d2c39",
-            "path": "resources/modpack/panorama/panorama_4.png"
-          }
-        },
-        {
-          "id": "panorama_5.png",
-          "name": "panorama_5.png",
-          "type": "File",
-          "artifact": {
-            "size": 148638,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/panorama/panorama_5.png",
-            "MD5": "0823bc0b2ca4fb9187f9b345c331c812",
-            "path": "resources/modpack/panorama/panorama_5.png"
-          }
-        },
-        {
-          "id": "smallylw.png",
-          "name": "smallylw.png",
-          "type": "File",
-          "artifact": {
-            "size": 19741,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/smallylw.png",
-            "MD5": "2f5578da50e3ecdf3ced26ba5e77ccb7",
-            "path": "resources/modpack/smallylw.png"
           }
         }
       ]
