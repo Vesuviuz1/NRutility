@@ -256,8 +256,8 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
+          "name": "Armourer's Workshop",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
@@ -403,16 +403,6 @@
             "size": 63674,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NPCIntegration-3.4.34%20(1).jar",
             "MD5": "39f8bde2120b5200260f1ce1b3f62736"
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-          "name": "OptiFine 1.12.2_HD_U_G5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2669107,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
-            "MD5": "54e561e441192cf009803ae95873c5d0"
           }
         },
         {
@@ -3585,17 +3575,6 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/bin/fabe-4145-e453-94a0/lwjgl64.dll",
             "MD5": "0b9fcfbd6d44e4d83605cc35171668c8",
             "path": "bin/fabe-4145-e453-94a0/lwjgl64.dll"
-          }
-        },
-        {
-          "id": "mainmenu.json",
-          "name": "mainmenu.json",
-          "type": "File",
-          "artifact": {
-            "size": 3994,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "e285022165981f1f02f8abd71d07d543",
-            "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
         {
