@@ -256,8 +256,8 @@
           }
         },
         {
-          "id": "moe.plushie:armourers_workshop:1.12.2-0.51.0@jar",
-          "name": "Armourer's Workshop",
+          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
+          "name": "Armourers-Workshop-1.12.2-0.51.0",
           "type": "ForgeMod",
           "artifact": {
             "size": 2678747,
@@ -3621,28 +3621,6 @@
           }
         },
         {
-          "id": "MoCSettings.cfg",
-          "name": "MoCSettings.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 4046,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/MoCreatures/MoCSettings.cfg",
-            "MD5": "b7e48c09b45f149365f85e5f45964193",
-            "path": "config/MoCreatures/MoCSettings.cfg"
-          }
-        },
-        {
-          "id": "MoCreatures.cfg",
-          "name": "MoCreatures.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 12242,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/MoCreatures/MoCreatures.cfg",
-            "MD5": "7a0d2aa3ad3733a099d00dfeab9633c4",
-            "path": "config/MoCreatures/MoCreatures.cfg"
-          }
-        },
-        {
           "id": "VariedCommodities.cfg",
           "name": "VariedCommodities.cfg",
           "type": "File",
@@ -3742,28 +3720,6 @@
           }
         },
         {
-          "id": "chinjufumod.cfg",
-          "name": "chinjufumod.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 1282,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/chinjufumod.cfg",
-            "MD5": "17e8c2b2a8e39cac87fe1706b362e186",
-            "path": "config/chinjufumod.cfg"
-          }
-        },
-        {
-          "id": "chinjufumod.toml",
-          "name": "chinjufumod.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1348,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/chinjufumod.toml",
-            "MD5": "61ec366b60c13d59d8de3b6c369c12ec",
-            "path": "config/chinjufumod.toml"
-          }
-        },
-        {
           "id": "colorfulhealthbar.cfg",
           "name": "colorfulhealthbar.cfg",
           "type": "File",
@@ -3838,17 +3794,6 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/decocraft.cfg",
             "MD5": "82ce76b8df794caffda0ff843d41c8a9",
             "path": "config/decocraft.cfg"
-          }
-        },
-        {
-          "id": "dungeontactics.cfg",
-          "name": "dungeontactics.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 24861,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/dungeontactics.cfg",
-            "MD5": "231e569f44aa79e6edef83fe21202b3d",
-            "path": "config/dungeontactics.cfg"
           }
         },
         {
@@ -4410,17 +4355,6 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources/modpack/smallylw.png",
             "MD5": "2f5578da50e3ecdf3ced26ba5e77ccb7",
             "path": "resources/modpack/smallylw.png"
-          }
-        },
-        {
-          "id": "resources.zip",
-          "name": "resources.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1291715,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/resources.zip",
-            "MD5": "6558cd6d93991de46681640e3154d0be",
-            "path": "resources.zip"
           }
         }
       ]
