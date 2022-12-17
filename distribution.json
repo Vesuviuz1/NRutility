@@ -3768,9 +3768,9 @@
           "name": "betterquesting.cfg",
           "type": "File",
           "artifact": {
-            "size": 592,
+            "size": 580,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/betterquesting.cfg",
-            "MD5": "ce7dbf79dd5f5defcbdb22b6da2ea7bd",
+            "MD5": "a48ec22b3d4dec6cbbcddd72bef00aca",
             "path": "config/betterquesting.cfg"
           }
         },
