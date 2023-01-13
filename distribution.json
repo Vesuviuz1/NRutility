@@ -390,9 +390,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 24970138,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-1.12.2-0.17.jar",
-            "MD5": "b86d26ad8f27fbb6995547d7a6f1a0ef"
+            "size": 24970659,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-1.12.2-0.18.jar",
+            "MD5": "ac8349d844ddb962f82d26dc72d51aa7"
           }
         },
         {
