@@ -486,6 +486,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:voicechat:1.12.2-2.3.28@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8816766,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/voicechat-forge-1.12.2-2.3.28.jar",
+            "MD5": "48a09232677c2247151c9ef94aa0a705"
+          }
+        },
+        {
           "id": "net.blay09.mods:waystones:4.0.72@jar",
           "name": "Waystones",
           "type": "ForgeMod",
@@ -4266,6 +4276,39 @@
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/splash.properties",
             "MD5": "a8f2afa85da7cba9b9466c2ff1549b0d",
             "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/voicechat/username-cache.json",
+            "MD5": "2bf3109eb946c48541b159b843a49aa8",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3152,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/voicechat/voicechat-client.properties",
+            "MD5": "33647e949149992dca0abc6bcb6dbc2b",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1748,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/voicechat/voicechat-server.properties",
+            "MD5": "f3add609ff0f574e0b69e3a243e37565",
+            "path": "config/voicechat/voicechat-server.properties"
           }
         },
         {
