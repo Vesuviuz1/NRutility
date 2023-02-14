@@ -16,5 +16,13 @@
   "forge": {
     "version": "14.23.5.2855"
   },
-  "untrackedFiles": []
-}
+    "untrackedFiles": [
+      {
+        "appliesTo": ["files"],
+        "patterns": [
+          "config/*.cfg",
+          "config/**/*.yml"
+        ]
+      }
+    ]
+  }
