@@ -330,9 +330,9 @@
           "name": "CustomNPCs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9911871,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20)%20(4).jar",
-            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+            "size": 9924337,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomNPCs_1.12.2-05Jun21snapshot%20(4).jar",
+            "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
           }
         },
         {
@@ -4269,7 +4269,6 @@
           "artifact": {
             "size": 3152,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/voicechat/voicechat-client.properties",
-            "MD5": "33647e949149992dca0abc6bcb6dbc2b",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
