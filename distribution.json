@@ -4269,6 +4269,7 @@
           "artifact": {
             "size": 3152,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/voicechat/voicechat-client.properties",
+            "MD5": "33647e949149992dca0abc6bcb6dbc2b",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
