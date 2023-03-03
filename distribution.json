@@ -3602,9 +3602,9 @@
           "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 4000,
+            "size": 3994,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "8e0ea5a403076476c7a21171928c1d34",
+            "MD5": "ca2b82da5b70edaf5ba7c183b4c6c0ec",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },

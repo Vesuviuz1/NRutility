@@ -40,7 +40,7 @@
             "action" : 
             {
                 "type" : "connecttoServer",
-                "ip" : "wish-geometry.craft.ply.gg"
+                "ip" : "167.114.220.22:25565"
             }
         },
         
