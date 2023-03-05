@@ -256,16 +256,6 @@
           }
         },
         {
-          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
-          "name": "Armourers-Workshop-1.12.2-0.51.0",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2678747,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
-            "MD5": "12954551f39bed840b32fd8be8fddb54"
-          }
-        },
-        {
           "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
           "name": "BetterFps",
           "type": "ForgeMod",
@@ -390,9 +380,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 26321525,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomodtest.jar",
-            "MD5": "63ecf18b619bd47f66348edb05cee50f"
+            "size": 26356111,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.2.13.jar",
+            "MD5": "66b08d5c69a0dfa9255590b55d8aa5c6"
           }
         },
         {
