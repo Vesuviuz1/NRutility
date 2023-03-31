@@ -256,6 +256,16 @@
           }
         },
         {
+          "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
+          "name": "Armourers-Workshop-1.12.2-0.51.0",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2678747,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.51.0.jar",
+            "MD5": "12954551f39bed840b32fd8be8fddb54"
+          }
+        },
+        {
           "id": "guichaguri.betterfps:betterfps:1.4.8@jar",
           "name": "BetterFps",
           "type": "ForgeMod",
