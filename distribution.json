@@ -396,16 +396,6 @@
           }
         },
         {
-          "id": "net.mcreator:narutomodaddon:1.0.0@jar",
-          "name": "NarutoModAddon",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 94010,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoModAddon.jar",
-            "MD5": "cc256fab6aa14b0a7e543aa624bd8f0a"
-          }
-        },
-        {
           "id": "bq_npc_integration.core:bq_npc_integration:3.4.34@jar",
           "name": "NPC Integration",
           "type": "ForgeMod",
