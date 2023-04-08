@@ -396,6 +396,16 @@
           }
         },
         {
+          "id": "net.mcreator:narutomodaddon:1.0.1@jar",
+          "name": "AHZNB's Naruto Mod Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162109,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoModAddon.jar",
+            "MD5": "fcb7069e92058d4b644f11fe1a901327"
+          }
+        },
+        {
           "id": "bq_npc_integration.core:bq_npc_integration:3.4.34@jar",
           "name": "NPC Integration",
           "type": "ForgeMod",
