@@ -346,16 +346,6 @@
           }
         },
         {
-          "id": "atomicstryker.dynamiclights.client:DynamicLights:1.4.9@jar",
-          "name": "Dynamic Lights",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 102000,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/DynamicLights-1.12.2.jar",
-            "MD5": "bbf46497e737f88bbfeb8cce74fb3099"
-          }
-        },
-        {
           "id": "mcp.mobius:waila:1.8.26@jar",
           "name": "Waila",
           "type": "ForgeMod",
