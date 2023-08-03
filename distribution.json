@@ -506,6 +506,16 @@
           }
         },
         {
+          "id": "net.mcreator:vezmusic:1.0.0@jar",
+          "name": "Vezmusic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34530663,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezmusic-0.1.jar",
+            "MD5": "5d8472d7ab305e173bc023f60aefdfa1"
+          }
+        },
+        {
           "id": "net.blay09.mods:waystones:4.0.72@jar",
           "name": "Waystones",
           "type": "ForgeMod",
