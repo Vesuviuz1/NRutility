@@ -396,13 +396,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.0-beta@jar",
+          "id": "net.narutomod:narutomod:0.3.1-beta@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 27385256,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/naruto_mod-0.3.1-a.jar",
-            "MD5": "e79c1a8bb781ef6de403d6d51d9fdeec"
+            "size": 27386105,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.1-b.jar",
+            "MD5": "e16565746d67fd9083e22a9866c80cbe"
           }
         },
         {
