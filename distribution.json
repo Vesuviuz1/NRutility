@@ -530,9 +530,9 @@
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 54343,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/VezRaidSystem-2.jar",
-            "MD5": "8e5d3436e4e1f22880c064b1b8da4539"
+            "size": 54391,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/VezRaids.jar",
+            "MD5": "6bd09607e3efcc4aab1839c1984b3548"
           }
         },
         {
