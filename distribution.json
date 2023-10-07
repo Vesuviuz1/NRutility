@@ -526,6 +526,16 @@
           }
         },
         {
+          "id": "net.mcreator:vezaddon:1.0.0@jar",
+          "name": "VezAddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54343,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/VezRaidSystem-2.jar",
+            "MD5": "8e5d3436e4e1f22880c064b1b8da4539"
+          }
+        },
+        {
           "id": "net.blay09.mods:waystones:4.0.72@jar",
           "name": "Waystones",
           "type": "ForgeMod",
