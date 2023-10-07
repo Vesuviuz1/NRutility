@@ -390,9 +390,9 @@
           "name": "Kabutoaddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 286314,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/kabutoaddon.jar",
-            "MD5": "53b1cdc5c7daded4230804a883ba6f9e"
+            "size": 635954,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/kabutoaddonbeta10.jar",
+            "MD5": "3904a54cabb05a4e4bb6c2a5c46668c1"
           }
         },
         {
