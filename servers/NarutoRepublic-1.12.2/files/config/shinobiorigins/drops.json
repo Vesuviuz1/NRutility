@@ -1,0 +1,34 @@
+{
+  "Tracking": {
+    "Global_Entities": [
+      "minecraft:zombie",
+      "minecraft:skeleton"
+    ],
+    "Global_Rarities": [
+      "Common"
+    ],
+    "Entities": {
+      "minecraft:zombie": [
+        "A-Scroll"
+      ]
+    }
+  },
+  "Rarities": {
+    "Common": {
+      "Weight": 50,
+      "Drops": []
+    },
+    "A-Scroll": {
+      "Weight": 5,
+      "Default_Drop_Weight": 25,
+      "Drops": [
+        "narutomod:scroll_cellular_activation",
+        "narutomod:scroll_chidori",
+        "narutomod:scroll_rasengan"
+      ],
+      "Drop_Weights": {
+        "narutomod:scroll_chidori": 100
+      }
+    }
+  }
+}

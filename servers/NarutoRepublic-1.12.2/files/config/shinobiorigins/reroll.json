@@ -1,0 +1,51 @@
+{
+  "Reroll_Token": "shinobiorigins:kg_reroll_token",
+  "Allowed_Items": [
+    "narutomod:bakuton",
+    "narutomod:mokuton",
+    "narutomod:jiton",
+    "narutomod:hyoton",
+    "narutomod:shakuton",
+    "narutomod:yooton",
+    "narutomod:ranton",
+    "narutomod:futton",
+    "narutomod:shikotsumyaku",
+    "narutomod:jinton"
+  ],
+  "Rarities": {
+    "Common": {
+      "Weight": 75,
+      "KG": [
+        "narutomod:bakuton",
+        "narutomod:yooton",
+        "narutomod:hyoton",
+        "narutomod:shakuton",
+        "narutomod:ranton"
+      ]
+    },
+    "Rare": {
+      "Weight": 25,
+      "KG": [
+        "narutomod:futton",
+        "narutomod:shikotsumyaku",
+        "narutomod:jiton",
+        "narutomod:jinton"
+      ]
+    },
+    "Epic": {
+      "Weight": 15,
+      "KG": [
+        "narutomod:sharinganhelmet",
+        "narutomod:byakuganhelmet"
+      ]
+    },
+    "Legendary": {
+      "Weight": 5,
+      "KG": [
+        "narutomod:rinneganhelmet",
+        "narutomod:tenseiganhelmet",
+        "narutomod:mokuton"
+      ]
+    }
+  }
+}

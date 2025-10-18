@@ -17,7 +17,7 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -171,
+            "posX" : -172,
             "posY" : -20,
             "width" : 150,
             "height" : 20,
@@ -40,7 +40,7 @@
             "action" : 
             {
                 "type" : "connecttoServer",
-                "ip" : "204.152.220.179:25565"
+                "ip" : "narutorepublic.modded.fun"
             }
         },
         
