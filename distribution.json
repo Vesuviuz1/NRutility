@@ -3658,17 +3658,6 @@
           }
         },
         {
-          "id": "mainmenu.json",
-          "name": "mainmenu.json",
-          "type": "File",
-          "artifact": {
-            "size": 3999,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "ea994c00f6d49a71e9b59ff65602d47b",
-            "path": "config/CustomMainMenu/mainmenu.json"
-          }
-        },
-        {
           "id": "CustomNpcs.cfg",
           "name": "CustomNpcs.cfg",
           "type": "File",
