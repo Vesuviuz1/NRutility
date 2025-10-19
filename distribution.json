@@ -13,7 +13,7 @@
       "description": "NarutoRepublic Official server",
       "icon": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/server-icon.png",
       "version": "1.0.0",
-      "address": "173.205.84.79:25565",
+      "address": "74.217.202.160:19665",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "Naruto",
