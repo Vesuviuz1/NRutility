@@ -13,7 +13,7 @@
       "description": "NarutoRepublic Official server",
       "icon": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/server-icon.png",
       "version": "1.0.0",
-      "address": "74.217.202.160:19665",
+      "address": "104.250.143.74:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "Naruto",
@@ -350,9 +350,9 @@
           "name": "CustomNPCs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10125814,
+            "size": 10171914,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomNPCs_1.12.2-03Feb22snapshot.jar",
-            "MD5": "12bbda3d5db9ee2b0655bde61b982a40"
+            "MD5": "bc084acdd9896d635a9e716cd04bee39"
           }
         },
         {
@@ -420,19 +420,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30046665,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.3-beta.jar",
-            "MD5": "b71665c2c7188da0a7ada19b7a625b9c"
-          }
-        },
-        {
-          "id": "net.mcreator:narutomodaddon:1.0.1@jar",
-          "name": "AHZNB's Naruto Mod Addon",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 162109,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NarutoModAddon.jar",
-            "MD5": "fcb7069e92058d4b644f11fe1a901327"
+            "size": 31011451,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.3-vezedits.jar",
+            "MD5": "a437c6136eb8bdc42fcf37c8ea266613"
           }
         },
         {
@@ -490,9 +480,9 @@
           "name": "ShinobiOrigins",
           "type": "ForgeMod",
           "artifact": {
-            "size": 38926690,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobiorigins-1.5.0.BETA.jar",
-            "MD5": "65372e9e9340b9afc7f9b7946dd4a9f3"
+            "size": 38936715,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobiorigins-1.5.0.BETA%20(2).jar",
+            "MD5": "f2d526cc6bd6b82095ddcd42b2080a3b"
           }
         },
         {
@@ -500,9 +490,9 @@
           "name": "ShinobiOrigins Utils",
           "type": "ForgeMod",
           "artifact": {
-            "size": 318567,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobioriginsutils-1.5.0.BETA.jar",
-            "MD5": "8a84edf04e920312600589e92ac1ad56"
+            "size": 319441,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobioriginsutils-1.5.0.BETA%20(2).jar",
+            "MD5": "0149bbb8a05cc28a9f40f5761d0a3feb"
           }
         },
         {
