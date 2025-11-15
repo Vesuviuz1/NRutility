@@ -376,16 +376,6 @@
           }
         },
         {
-          "id": "org.dynmap.forge_1_12_2:Dynmap:3.7-SNAPSHOT@jar",
-          "name": "Dynmap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11612482,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Dynmap-3.7-beta-6-forge-1.12.2%20(1).jar",
-            "MD5": "2508be6a33d20df78b260b4fd513da68"
-          }
-        },
-        {
           "id": "net.teamfruit:emojicord:1.1.1.39@jar",
           "name": "Emojicord",
           "type": "ForgeMod",
@@ -436,13 +426,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-beta-vez@jar",
+          "id": "net.narutomod:narutomod:0.3.2-beta-vez2@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30640287,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Narutomod-0.3.2-VezchangesV8.jar",
-            "MD5": "0544230329f787a61e8c7f883e623b7e"
+            "size": 30639381,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Narutomod-0.3.2-VezchangesV9.jar",
+            "MD5": "1120eeade03d6b7509c00e0ce4f14599"
           }
         },
         {
@@ -496,23 +486,23 @@
           }
         },
         {
-          "id": "net.saberart:shinobiorigins:1.5.0.BETA@jar",
+          "id": "net.saberart:shinobiorigins:1.6.0.BETA@jar",
           "name": "ShinobiOrigins",
           "type": "ForgeMod",
           "artifact": {
-            "size": 38936715,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobiorigins-1.5.0.BETA%20(2).jar",
-            "MD5": "f2d526cc6bd6b82095ddcd42b2080a3b"
+            "size": 39109617,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobiorigins-1.6.0.BETA%20(1).jar",
+            "MD5": "3291ef40e06c8d537d87387f46bc61b1"
           }
         },
         {
-          "id": "net.saberart:shinobioriginsutils:1.5.0.BETA@jar",
+          "id": "net.saberart:shinobioriginsutils:1.6.0.BETA@jar",
           "name": "ShinobiOrigins Utils",
           "type": "ForgeMod",
           "artifact": {
-            "size": 319441,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobioriginsutils-1.5.0.BETA%20(2).jar",
-            "MD5": "0149bbb8a05cc28a9f40f5761d0a3feb"
+            "size": 330031,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobioriginsutils-1.6.0.BETA%20(3).jar",
+            "MD5": "1b4b5d41703581090ff566e8f496f2fa"
           }
         },
         {
