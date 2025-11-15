@@ -346,6 +346,16 @@
           }
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "noppes.npcs:customnpcs:1.12@jar",
           "name": "CustomNPCs",
           "type": "ForgeMod",
@@ -373,6 +383,16 @@
             "size": 11612482,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Dynmap-3.7-beta-6-forge-1.12.2%20(1).jar",
             "MD5": "2508be6a33d20df78b260b4fd513da68"
+          }
+        },
+        {
+          "id": "net.teamfruit:emojicord:1.1.1.39@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407314,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Emojicord-1.12.2-1.1.1.39-universal.jar",
+            "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
           }
         },
         {
@@ -416,13 +436,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-beta@jar",
+          "id": "net.narutomod:narutomod:0.3.2-beta-vez@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30640273,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-VezChangesV6.jar",
-            "MD5": "8f1e177a75546f2e0a22b972e6d80e55"
+            "size": 30640287,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Narutomod-0.3.2-VezchangesV8.jar",
+            "MD5": "0544230329f787a61e8c7f883e623b7e"
           }
         },
         {
@@ -3645,6 +3665,17 @@
             "size": 1147,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/ChickenChunks.cfg",
             "path": "config/ChickenChunks.cfg"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 3997,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "4915e934a25d4fc526b9b3b4154e8021",
+            "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
         {
