@@ -426,13 +426,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-beta-vez2@jar",
+          "id": "net.narutomod:narutomod:0.3.2-beta-vez3@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30639381,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Narutomod-0.3.2-VezchangesV9.jar",
-            "MD5": "1120eeade03d6b7509c00e0ce4f14599"
+            "size": 30637351,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Narutomod-0.3.2-VezChangesV10.jar",
+            "MD5": "9651c1d2d328836c923563c9c8c3ff3a"
           }
         },
         {
@@ -3986,9 +3986,9 @@
           "name": "reroll.json",
           "type": "File",
           "artifact": {
-            "size": 1039,
+            "size": 1216,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/shinobiorigins/reroll.json",
-            "MD5": "5c50b720775d9c4d5120026986fc3dcf",
+            "MD5": "3d61118318957f3eb8bf24c9567ffa1a",
             "path": "config/shinobiorigins/reroll.json"
           }
         },
@@ -3997,9 +3997,9 @@
           "name": "shinobiorigins.cfg",
           "type": "File",
           "artifact": {
-            "size": 3556,
+            "size": 3908,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/files/config/shinobiorigins/shinobiorigins.cfg",
-            "MD5": "ee17f4a3b8fdd6c8f7f9a13b5937667a",
+            "MD5": "61a67c2fd0a76e28b62cc89b73abf95b",
             "path": "config/shinobiorigins/shinobiorigins.cfg"
           }
         },
