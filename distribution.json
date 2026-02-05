@@ -256,6 +256,16 @@
           }
         },
         {
+          "id": "jarno:ahznbstweaks:1.7@jar",
+          "name": "AHZNBS Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70091,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ahznbstweaks-1.99.jar",
+            "MD5": "ad15fed3e019e8e5d906cb60350d4ce4"
+          }
+        },
+        {
           "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
           "name": "Armourers-Workshop-1.12.2-0.51.0",
           "type": "ForgeMod",
@@ -283,6 +293,26 @@
             "size": 1425671,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/BetterQuesting-3.5.329.jar",
             "MD5": "85da6feb96533799ed726f22f09682fc"
+          }
+        },
+        {
+          "id": "com.biju_unleashing:biju_unleashing:1.7.3@jar",
+          "name": "Biju Unleashing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42902905,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/biju_unleashing-1.7.3.jar",
+            "MD5": "3f2c24a2df5a5cb7993abd8ff792a4b4"
+          }
+        },
+        {
+          "id": "carbonconfiglib:carbonconfig:1.2.1@jar",
+          "name": "Carbon Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1176455,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CarbonConfig-1.12.2-1.2.4.jar",
+            "MD5": "18c74e042b5557d063361252f75a44d4"
           }
         },
         {
@@ -360,9 +390,9 @@
           "name": "CustomNPCs",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10171914,
+            "size": 10170615,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CustomNPCs_1.12.2-03Feb22snapshot.jar",
-            "MD5": "bc084acdd9896d635a9e716cd04bee39"
+            "MD5": "13db5f3ceef160840629194c068b3a49"
           }
         },
         {
@@ -383,6 +413,16 @@
             "size": 407314,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Emojicord-1.12.2-1.1.1.39-universal.jar",
             "MD5": "0688ab2c92a1b0fb41b4291164afecf1"
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.15-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229335,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/foamfix-0.10.15-1.12.2.jar",
+            "MD5": "6e09e228316900fc2c1d74e18a8b790f"
           }
         },
         {
@@ -416,16 +456,6 @@
           }
         },
         {
-          "id": "journeymap:journeymap:1.12.2-5.7.0@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6990613,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/journeymap-1.12.2-5.7.0.jar",
-            "MD5": "3825ed0144c5cbf4d30760bec96d5843"
-          }
-        },
-        {
           "id": "net.mcreator:kabutoaddon:1.0.0@jar",
           "name": "Kabutoaddon",
           "type": "ForgeMod",
@@ -436,13 +466,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-beta-vez10@jar",
+          "id": "net.narutomod:narutomod:0.3.2-Vezchanges-0.0.4@jar",
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30642137,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-VezChangesV17.jar",
-            "MD5": "05bc0c8b3f6c86747fc932ee37411169"
+            "size": 30926072,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-vezchanges-0.0.4.jar",
+            "MD5": "4c09e1bda1735af72eda3262c4d950ad"
           }
         },
         {
@@ -463,6 +493,16 @@
             "size": 2669107,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "com.performant.coremod:performant:1.11@jar",
+          "name": "Performant Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8387,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/performant-1.11.jar",
+            "MD5": "9d71048d2ee92951461c2c99bf7c427b"
           }
         },
         {
@@ -540,9 +580,9 @@
           "name": "Vezraids",
           "type": "ForgeMod",
           "artifact": {
-            "size": 58189,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.0.5.jar",
-            "MD5": "a28645a8e27ae55ff37572db9bcfc55f"
+            "size": 74862,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.0.8.jar",
+            "MD5": "ec1653c46bfbb09cd12b3a360487c242"
           }
         },
         {
@@ -556,23 +596,23 @@
           }
         },
         {
-          "id": "net.blay09.mods:waystones:4.0.72@jar",
-          "name": "Waystones",
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
+          "name": "Xaero's Minimap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 175462,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Waystones_1.12.2-4.0.72.jar",
-            "MD5": "bd0e629002546e7cc3b6207a61886b88"
+            "size": 1858803,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.12.jar",
+            "MD5": "664ee807d8517599112d63a5f6de5aab"
           }
         },
         {
-          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
-          "name": "WorldEdit",
+          "id": "xaero.map:xaeroworldmap:1.39.12@jar",
+          "name": "Xaero's World Map",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1479535,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
-            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+            "size": 870623,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/XaerosWorldMap_1.39.12_Forge_1.12.jar",
+            "MD5": "07612ebbe98e2c258650213e613d9068"
           }
         },
         {
