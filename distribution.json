@@ -600,9 +600,9 @@
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 20650881,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.4.5.jar",
-            "MD5": "91cfcbc7e0bbd3ebab766ca9e5d7b65b"
+            "size": 20659447,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.4.6.jar",
+            "MD5": "90237e893b1cd914ed771bee5d982179"
           }
         },
         {
