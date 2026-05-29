@@ -256,16 +256,6 @@
           }
         },
         {
-          "id": "jarno:ahznbstweaks:1.7@jar",
-          "name": "AHZNBS Tweaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 70091,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ahznbstweaks-1.99.jar",
-            "MD5": "ad15fed3e019e8e5d906cb60350d4ce4"
-          }
-        },
-        {
           "id": "armourers_workshop:Armourers:Workshop:1.12.2-0.51.0", 
           "name": "Armourers-Workshop-1.12.2-0.51.0",
           "type": "ForgeMod",
@@ -283,16 +273,6 @@
             "size": 155196,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/BetterFps-1.4.8.jar",
             "MD5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
-          }
-        },
-        {
-          "id": "betterquesting.core:betterquesting:3.5.329@jar",
-          "name": "Better Questing",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1425671,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/BetterQuesting-3.5.329.jar",
-            "MD5": "85da6feb96533799ed726f22f09682fc"
           }
         },
         {
@@ -316,16 +296,6 @@
           }
         },
         {
-          "id": "codechicken.chunkloader:chickenchunks:0.0.0@jar",
-          "name": "ChickenChunks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 133425,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ChickenChunks_1.12_2.4.0.70_universal.jar",
-            "MD5": "1e1d181b449a20b87856b8163e1cf4fe"
-          }
-        },
-        {
           "id": "com.ayutaki.chinjufumod.main:chinjufumod:[1.12.2]5.1.3@jar",
           "name": "ChinjufuMod",
           "type": "ForgeMod",
@@ -333,16 +303,6 @@
             "size": 9907898,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ChinjufuMod[1.12.2]5.1.3.jar",
             "MD5": "b4ac697a8ea76e469049b85d8743a06e"
-          }
-        },
-        {
-          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
-          "name": "CodeChicken Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 704330,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/CodeChickenLib_1.12.2_3.2.3.358_universal.jar",
-            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
           }
         },
         {
@@ -480,19 +440,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 31159925,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.2.7.jar",
-            "MD5": "328ebab0a420c6163246e45f0aa04a68"
-          }
-        },
-        {
-          "id": "bq_npc_integration.core:bq_npc_integration:3.4.34@jar",
-          "name": "NPC Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 63674,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/NPCIntegration-3.4.34%20(1).jar",
-            "MD5": "39f8bde2120b5200260f1ce1b3f62736"
+            "size": 31163462,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.2.8.jar",
+            "MD5": "7820529596501f2936486f2ea6eab3fb"
           }
         },
         {
@@ -526,16 +476,6 @@
           }
         },
         {
-          "id": "drethic.questbook:questbook:3.1.1-1.12@jar",
-          "name": "Better Questing Quest Book",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 20203,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/questbook-3.1.1-1.12.jar",
-            "MD5": "aa802b89cd4244d0bfaff4b60a0f5654"
-          }
-        },
-        {
           "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
           "name": "Resource Loader",
           "type": "ForgeMod",
@@ -543,36 +483,6 @@
             "size": 16612,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
-          }
-        },
-        {
-          "id": "net.saberart:shinobiorigins:1.7.0.BETA@jar",
-          "name": "ShinobiOrigins",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 39108200,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobiorigins-1.7.0.BETA.jar",
-            "MD5": "46d17226414f92d2724b39a5b2a1587c"
-          }
-        },
-        {
-          "id": "net.saberart:shinobioriginsutils:1.7.0.BETA@jar",
-          "name": "ShinobiOrigins Utils",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 330061,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/shinobioriginsutils-1.7.0.BETA.jar",
-            "MD5": "2b4d1e86c198e8a225fcf1e18692b552"
-          }
-        },
-        {
-          "id": "bq_standard.core:bq_standard:3.4.173@jar",
-          "name": "Standard Expansion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 460454,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/StandardExpansion-3.4.173.jar",
-            "MD5": "a05ed445a2c384e429c124b673cbda2a"
           }
         },
         {
@@ -600,9 +510,9 @@
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 24091051,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.7.0.jar",
-            "MD5": "92d2a15266d11fe3afb0fcd126984a10"
+            "size": 24181973,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.7.1.jar",
+            "MD5": "417b96683687416fb41a31091386805d"
           }
         },
         {
