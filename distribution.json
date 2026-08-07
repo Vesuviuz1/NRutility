@@ -466,16 +466,6 @@
           }
         },
         {
-          "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.7@jar",
-          "name": "Phosphor",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 920264,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
-            "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
-          }
-        },
-        {
           "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
           "name": "Ptrmodellib",
           "type": "ForgeMod",
