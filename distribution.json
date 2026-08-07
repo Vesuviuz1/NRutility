@@ -13,7 +13,7 @@
       "description": "NarutoRepublic Official server",
       "icon": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/server-icon.png",
       "version": "1.0.0",
-      "address": "104.250.143.74:25565",
+      "address": "64.87.55.129:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "Naruto",
@@ -276,16 +276,6 @@
           }
         },
         {
-          "id": "com.biju_unleashing:biju_unleashing Nerfed:1.8.3@jar",
-          "name": "Biju Unleashing Nerfed",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 45766203,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/biju_unleashing_nerfed-1.8.3.jar",
-            "MD5": "11b4673a7aabea5656e8c1b0605bf3ea"
-          }
-        },
-        {
           "id": "carbonconfiglib:carbonconfig:1.2.1@jar",
           "name": "Carbon Config Library",
           "type": "ForgeMod",
@@ -440,9 +430,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 31174068,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.3.8.jar",
-            "MD5": "8ac7a61140d4dfa7e05424bebf36f514"
+            "size": 31177043,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.4.5.jar",
+            "MD5": "ee9070ff9badd939bab89f91cb17b4b1"
           }
         },
         {
@@ -510,19 +500,9 @@
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 25154619,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.8.6.jar",
-            "MD5": "50adefdc0fd4b1d99d17d941002986f6"
-          }
-        },
-        {
-          "id": "net.blay09.mods:waystones:4.1.0@jar",
-          "name": "Waystones",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 178994,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/Waystones_1.12.2-4.1.0.jar",
-            "MD5": "5159122949ffb79b80a341135673e8f8"
+            "size": 33362440,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.9.5.jar",
+            "MD5": "520de519742b13fa523f6a46c62612dc"
           }
         },
         {
