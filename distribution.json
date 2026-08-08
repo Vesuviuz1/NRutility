@@ -440,9 +440,9 @@
           "name": "NarutoMod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 31177565,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.4.6.jar",
-            "MD5": "5c6ab2ef9a67c50f57faf3fde54ae281"
+            "size": 31177544,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/narutomod-0.3.2-Vezchanges-0.4.7.jar",
+            "MD5": "9ac016ef2a000b494293c6dce82c0fb3"
           }
         },
         {
@@ -510,9 +510,9 @@
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 33390167,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.9.6.jar",
-            "MD5": "ed3c6cf622f1b46d7bb2b541050f89eb"
+            "size": 33495909,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.12.2/forgemods/required/vezaddon-0.9.7.jar",
+            "MD5": "cc471241cc1ab9c27747af12806c6016"
           }
         },
         {
