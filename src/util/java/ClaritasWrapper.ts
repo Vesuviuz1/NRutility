@@ -1,9 +1,10 @@
-import { JarExecutor } from './JarExecutor'
+import { JarExecutor } from './JarExecutor.js'
 import { join, resolve } from 'path'
-import { ClaritasResult } from '../../model/claritas/ClaritasResult'
-import { MinecraftVersion } from '../MinecraftVersion'
-import { LibraryType } from '../../model/claritas/ClaritasLibraryType'
-import { pathExists, remove, readFile, writeFile, mkdirs } from 'fs-extra'
+import { ClaritasResult } from '../../model/claritas/ClaritasResult.js'
+import { MinecraftVersion } from '../MinecraftVersion.js'
+import { LibraryType } from '../../model/claritas/ClaritasLibraryType.js'
+import { pathExists, remove, mkdirs } from 'fs-extra/esm'
+import { readFile, writeFile } from 'fs/promises'
 
 export class ClaritasWrapper extends JarExecutor<ClaritasResult> {
 
@@ -24,7 +25,7 @@ export class ClaritasWrapper extends JarExecutor<ClaritasResult> {
                 this.lastExecutionResult = undefined!
             } else {
                 if(await pathExists(this.OUTPUT_FILE)) {
-                    this.lastExecutionResult = JSON.parse((await readFile(this.OUTPUT_FILE)).toString('utf8'))
+                    this.lastExecutionResult = JSON.parse((await readFile(this.OUTPUT_FILE)).toString('utf8')) as ClaritasResult
                 } else {
                     this.logger.error('Claritas output file not found when exit code is 0, is this a bug?')
                     this.lastExecutionResult = undefined!
@@ -62,7 +63,7 @@ export class ClaritasWrapper extends JarExecutor<ClaritasResult> {
 
     private async cleanOutput(): Promise<void> {
         if(await pathExists(this.WORK_DIR)) {
-            remove(this.WORK_DIR)
+            await remove(this.WORK_DIR)
         }
     }
 

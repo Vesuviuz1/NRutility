@@ -1,0 +1,40 @@
+{
+  "$schema": "file:///C:/Users/Bigza/OneDrive/Documents/GitHub/NRutility/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "2.0.0",
+    "name": "NarutoRepublic (1.20.1)",
+    "description": "NarutoRepublic Official server",
+    "address": "64.87.55.129:25565",
+    "discord": {
+      "shortId": "Naruto",
+      "largeImageText": "Naruto Republic",
+      "largeImageKey": "icon"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "distribution": "TEMURIN",
+      "supported": ">=17.x",
+      "suggestedMajor": 17,
+      "ram": {
+        "recommended": 6144,
+        "minimum": 4096
+      }
+    }
+  },
+  "forge": {
+    "version": "47.4.10"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": [
+        "files"
+      ],
+      "patterns": [
+        "config/*.toml",
+        "config/**/*.toml",
+        "config/**/*.json"
+      ]
+    }
+  ]
+}

@@ -1,15 +1,16 @@
 import { createHash } from 'crypto'
-import { copy, lstat, mkdirs, pathExists, readFile, remove } from 'fs-extra'
+import { copy, mkdirs, pathExists, remove } from 'fs-extra/esm'
+import { lstat, readFile } from 'fs/promises'
 import { Module, Type } from 'helios-distribution-types'
 import { basename, join } from 'path'
-import { VersionManifestFG2 } from '../../../model/forge/VersionManifestFG2'
-import { LibRepoStructure } from '../../../structure/repo/LibRepo.struct'
-import { MavenUtil } from '../../../util/maven'
-import { PackXZExtractWrapper } from '../../../util/java/PackXZExtractWrapper'
-import { VersionUtil } from '../../../util/versionutil'
-import { ForgeResolver } from '../forge.resolver'
-import { MinecraftVersion } from '../../../util/MinecraftVersion'
-import { LoggerUtil } from '../../../util/LoggerUtil'
+import { VersionManifestFG2 } from '../../../model/forge/VersionManifestFG2.js'
+import { LibRepoStructure } from '../../../structure/repo/LibRepo.struct.js'
+import { MavenUtil } from '../../../util/MavenUtil.js'
+import { PackXZExtractWrapper } from '../../../util/java/PackXZExtractWrapper.js'
+import { VersionUtil } from '../../../util/VersionUtil.js'
+import { ForgeResolver } from '../Forge.resolver.js'
+import { MinecraftVersion } from '../../../util/MinecraftVersion.js'
+import { LoggerUtil } from '../../../util/LoggerUtil.js'
 
 type ArrayElement<A> = A extends readonly (infer T)[] ? T : never
 
@@ -144,7 +145,8 @@ export class ForgeGradle2Adapter extends ForgeResolver {
                 name: `Minecraft Forge (${mavenComponents?.artifact})`,
                 type: Type.Library,
                 artifact: this.generateArtifact(
-                    libBuf as Buffer,
+                    // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
+                    libBuf!,
                     stats,
                     libRepo.getArtifactUrlByComponents(
                         this.baseUrl,
@@ -204,8 +206,8 @@ export class ForgeGradle2Adapter extends ForgeResolver {
     }
 
     private async processPackXZFiles(
-        processingQueue: Array<{id: string, localPath: string}>
-    ): Promise<Array<{id: string, MD5: string}>> {
+        processingQueue: {id: string, localPath: string}[]
+    ): Promise<{id: string, MD5: string}[]> {
 
         if(processingQueue.length == 0) {
             return []

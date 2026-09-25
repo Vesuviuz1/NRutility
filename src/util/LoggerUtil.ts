@@ -1,11 +1,7 @@
 import { createLogger, format, transports, Logger } from 'winston'
-import { SPLAT as SPLAT_Symbol } from 'triple-beam'
+import { SPLAT } from 'triple-beam'
 import { DateTime } from 'luxon'
 import { inspect } from 'util'
-
-// Workaround until fixed.
-// https://github.com/winstonjs/logform/issues/111
-const SPLAT = SPLAT_Symbol as unknown as string
 
 export class LoggerUtil {
 
@@ -18,8 +14,9 @@ export class LoggerUtil {
                 format.printf(info => {
                     if(info[SPLAT]) {
                         if(info[SPLAT].length === 1 && info[SPLAT][0] instanceof Error) {
-                            const err = info[SPLAT][0] as Error
+                            const err: Error = info[SPLAT][0]
                             if(info.message.length > err.message.length && info.message.endsWith(err.message)) {
+                                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
                                 info.message = info.message.substring(0, info.message.length-err.message.length)
                             }
                         } else if(info[SPLAT].length > 0) {
@@ -28,6 +25,7 @@ export class LoggerUtil {
                                 if(typeof it === 'object' && it != null) {
                                     return inspect(it, false, 4, true)
                                 }
+                                // eslint-disable-next-line @typescript-eslint/no-unsafe-return
                                 return it
                             }).join(' ')
                         }

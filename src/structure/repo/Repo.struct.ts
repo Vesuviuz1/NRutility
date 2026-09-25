@@ -1,8 +1,8 @@
-import { mkdirs } from 'fs-extra'
+import { mkdirs } from 'fs-extra/esm'
 import { join } from 'path'
-import { BaseFileStructure } from '../BaseFileStructure'
-import { LibRepoStructure } from './LibRepo.struct'
-import { VersionRepoStructure } from './VersionRepo.struct'
+import { BaseFileStructure } from '../BaseFileStructure.js'
+import { LibRepoStructure } from './LibRepo.struct.js'
+import { VersionRepoStructure } from './VersionRepo.struct.js'
 
 export class RepoStructure extends BaseFileStructure {
 
@@ -11,11 +11,12 @@ export class RepoStructure extends BaseFileStructure {
 
     constructor(
         absoluteRoot: string,
-        relativeRoot: string
+        relativeRoot: string,
+        name: string
     ) {
         super(absoluteRoot, relativeRoot, 'repo')
         this.libRepoStruct = new LibRepoStructure(this.containerDirectory, this.relativeRoot)
-        this.versionRepoStruct = new VersionRepoStructure(this.containerDirectory, this.relativeRoot)
+        this.versionRepoStruct = new VersionRepoStructure(this.containerDirectory, this.relativeRoot, name)
     }
 
     public getLoggerName(): string {
@@ -23,7 +24,7 @@ export class RepoStructure extends BaseFileStructure {
     }
 
     public async init(): Promise<void> {
-        super.init()
+        await super.init()
         await this.libRepoStruct.init()
         await this.versionRepoStruct.init()
         await mkdirs(this.getCacheDirectory())

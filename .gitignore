@@ -1,6 +1,12 @@
 # Build directory
 dist
 
+# Forge installer output cache (regenerated on demand, not served to clients)
+cache
+
+# CurseForge modpack import directory
+modpacks
+
 # Logs
 logs
 *.log

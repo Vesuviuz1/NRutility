@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/Bigza/OneDrive/Documents/GitHub/NRutility/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://example.com/news.xml",
     "discord": {
       "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

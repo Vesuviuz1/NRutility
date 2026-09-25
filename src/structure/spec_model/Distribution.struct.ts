@@ -1,11 +1,12 @@
-import { mkdirs, writeFile, readFile, pathExists } from 'fs-extra'
+import { mkdirs, pathExists } from 'fs-extra/esm'
+import { readFile, writeFile } from 'fs/promises'
 import { Distribution } from 'helios-distribution-types'
-import { SpecModelStructure } from './SpecModelStructure'
-import { ServerStructure } from './Server.struct'
+import { SpecModelStructure } from './SpecModelStructure.js'
+import { ServerStructure } from './Server.struct.js'
 import { join, resolve } from 'path'
-import { DistroMeta, getDefaultDistroMeta } from '../../model/nebula/distrometa'
-import { addSchemaToObject, SchemaTypes } from '../../util/SchemaUtil'
-import { LoggerUtil } from '../../util/LoggerUtil'
+import { DistroMeta, getDefaultDistroMeta } from '../../model/nebula/DistroMeta.js'
+import { addSchemaToObject, SchemaTypes } from '../../util/SchemaUtil.js'
+import { LoggerUtil } from '../../util/LoggerUtil.js'
 
 const logger = LoggerUtil.getLogger('DistributionStructure')
 
@@ -48,7 +49,7 @@ export class DistributionStructure implements SpecModelStructure<Distribution> {
 
     public async getSpecModel(): Promise<Distribution> {
 
-        const distroMeta: DistroMeta = JSON.parse(await readFile(resolve(this.metaPath, this.DISTRO_META_FILE), 'utf-8'))
+        const distroMeta = JSON.parse(await readFile(resolve(this.metaPath, this.DISTRO_META_FILE), 'utf-8')) as DistroMeta
 
         return {
             version: '1.0.0',

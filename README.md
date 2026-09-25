@@ -4,7 +4,7 @@ Generate a distribution.json for Helios. Documentation on this format can be fou
 
 ## Requirements
 
-* Node.js 16
+* Node.js 18
 * Java 8+ (https://adoptopenjdk.net/)
   * This is required to run the forge installer, process [XZ](https://tukaani.org/xz/format.html) files, and run bytecode analysis on mod files.
   * Although 1.17 requires Java 16, the forge installer works with Java 8.
@@ -103,7 +103,7 @@ __*SubCommands*__
 
 #### Generate Server
 
-Generate an new server in the root directory. Options are provided to include forge/liteloader in the generated server.
+Generate an new server in the root directory. Options are provided to include forge in the generated server.
 
 `generate server <id> <version> <options>`
 
@@ -113,14 +113,34 @@ Options:
   * OPTIONAL (default: null)
   * If not provided forge will not be enabled.
   * You can provide either `latest` or `recommended` to use the latest/recommended version of forge.
-* `--liteloader <string>` Specify liteloader version.
+* `--fabric <string>` Specify fabric loader version
   * OPTIONAL (default: null)
-  * If not provided liteloader will not be enabled.
+  * If not provided fabric will not be enabled.
+  * You can provide either `latest` or `recommended` to use the latest/recommended version of fabric.
+
+> [!NOTE]  
+> Forge and fabric cannot be used together on the same server. This command will fail if both are provided.
 
 >
 > Example Usage
 >
 > `generate server Test1 1.12.2 --forge 14.23.5.2847`
+>
+
+---
+
+#### Generate Server from CurseForge Modpack
+
+Generate an new server in the root directory, including files and mods from an existing CurseForge modpack.
+
+`generate server-curseforge <id> <zipFile>`
+
+The cursforge modpack must be downloaded as a zip and placed into `${ROOT}/modpacks/curseforge`. Pass the name of the modpack as the `<zipFile>` argument.
+
+>
+> Example Usage
+>
+> `generate server-curseforge WesterosCraft-Prod The+WesterosCraft+Modpack-2.1.6.zip`
 >
 
 ---
@@ -140,7 +160,7 @@ Options:
 * `--installLocal` Have the application install a copy of the generated distribution to the Helios data folder.
   * OPTIONAL (default: false)
   * This is useful to easily test the new distribution.json in dev mode on Helios.
-  * Tip: Set name to `dev_distribution` when using this option.
+  * Tip: Set name to `distribution_dev` when using this option.
 * `--discardOutput` Delete cached output after it is no longer required. May be useful if disk space is limited.
   * OPTIONAL (default: false)
 * `--invalidateCache` Invalidate and delete existing caches as they are encountered. Requires fresh cache generation.
@@ -155,7 +175,7 @@ As of Forge 1.13, the installer must be run to generate required files. The inst
 >
 > `generate distro`
 >
-> `generate distro dev_distribution --installLocal`
+> `generate distro distribution_dev --installLocal`
 >
 
 ---
@@ -214,10 +234,18 @@ Ex.
   * `files` All modules of type `File`.
   * `libraries` All modules of type `Library`
   * `forgemods` All modules of type `ForgeMod`.
-    * This is a directory of toggleable modules. See the note below.
-  * `litemods` All modules of type `LiteMod`.
+  * `fabricmods` All modules of type `FabricMod`.
     * This is a directory of toggleable modules. See the note below.
   * `TestServer-1.12.2.png` Server icon file.
+
+#### Setting the Server Icon
+
+You can set the server icon in two ways.
+
+1. __*(Preferred)*__ Place your server icon in the root server directory as shown in the example above. Only jpg and png files will be looked at. The name of the file does not matter.
+2. Paste the **full** URL to your server icon in the servermeta.json for your server. It is highly recommended to only use files that are hosted on your own servers.
+
+The value in servermeta.json will always be used so long as it is not empty and is a [valid url](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL). If it is empty or an [invalid url](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL), then the first method will be used.
 
 #### Toggleable Modules
 
@@ -268,6 +296,7 @@ Sample:
     "version": "1.0.0",
     "name": "Test (Minecraft 1.12.2)",
     "description": "Test Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {
       "shortId": "1.12.2 Test Server",
@@ -315,7 +344,7 @@ In the above example, all files of type `cfg` in the config directory will be un
       ]
     },
     {
-      "appliesTo": ["forgemods", "litemods"],
+      "appliesTo": ["forgemods"],
       "patterns": [
         "optionalon/*.jar"
       ]
@@ -324,11 +353,11 @@ In the above example, all files of type `cfg` in the config directory will be un
 }
 ```
 
-Another example where all `optionalon` forgemods and litemods are untracked. **Untracking mods is NOT recommended. This is an example ONLY.**
+Another example where all `optionalon` forgemods are untracked. **Untracking mods is NOT recommended. This is an example ONLY.**
 
 ### Note on JSON Schemas
 
-The `$schema` property in a JSON file is a URL to a JSON schema file. This property is optional. Nebula provides schemas for internal types to make editing the JSON easier. Editors, such as Visual Studio Code, will use this schema file to validate the data and show useful information, like property descriptions. Valid properties will also be autocompleted. For detailed information, you may view the [JSON Schema Website](jsonschemawebsite).
+The `$schema` property in a JSON file is a URL to a JSON schema file. This property is optional. Nebula provides schemas for internal types to make editing the JSON easier. Editors, such as Visual Studio Code, will use this schema file to validate the data and show useful information, like property descriptions. Valid properties will also be autocompleted. For detailed information, you may view the [JSON Schema Website][jsonschemawebsite].
 
 Nebula will store JSON schemas in `${ROOT}/schemas`. This is so that they will always be in sync with your local version of Nebula. They will initially be generated by the `init root` command. To update the schemas, you can run the `generate schemas` command.
 

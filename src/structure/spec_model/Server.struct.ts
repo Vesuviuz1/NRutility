@@ -1,15 +1,24 @@
-import { lstat, mkdirs, pathExists, readdir, readFile, writeFile } from 'fs-extra'
+import { mkdirs, pathExists } from 'fs-extra/esm'
+import { lstat, readdir, readFile, writeFile } from 'fs/promises'
 import { Server, Module } from 'helios-distribution-types'
 import { dirname, join, resolve as resolvePath } from 'path'
 import { URL } from 'url'
-import { VersionSegmentedRegistry } from '../../util/VersionSegmentedRegistry'
-import { ServerMeta, getDefaultServerMeta, ServerMetaOptions, UntrackedFilesOption } from '../../model/nebula/servermeta'
-import { BaseModelStructure } from './BaseModel.struct'
-import { MiscFileStructure } from './module/File.struct'
-import { LiteModStructure } from './module/LiteMod.struct'
-import { LibraryStructure } from './module/Library.struct'
-import { MinecraftVersion } from '../../util/MinecraftVersion'
-import { addSchemaToObject, SchemaTypes } from '../../util/SchemaUtil'
+import { VersionSegmentedRegistry } from '../../util/VersionSegmentedRegistry.js'
+import { ServerMeta, getDefaultServerMeta, ServerMetaOptions, UntrackedFilesOption } from '../../model/nebula/ServerMeta.js'
+import { BaseModelStructure } from './BaseModel.struct.js'
+import { FabricModStructure } from './module/FabricMod.struct.js'
+import { MiscFileStructure } from './module/File.struct.js'
+import { LibraryStructure } from './module/Library.struct.js'
+import { MinecraftVersion } from '../../util/MinecraftVersion.js'
+import { addSchemaToObject, SchemaTypes } from '../../util/SchemaUtil.js'
+import { isValidUrl } from '../../util/StringUtils.js'
+import { FabricResolver } from '../../resolver/fabric/Fabric.resolver.js'
+
+export interface CreateServerResult {
+    modContainer?: string
+    libraryContainer: string
+    miscFileContainer: string
+}
 
 export class ServerStructure extends BaseModelStructure<Server> {
 
@@ -36,26 +45,34 @@ export class ServerStructure extends BaseModelStructure<Server> {
         return this.resolvedModels
     }
 
+    public static getEffectiveId(id: string, minecraftVersion: MinecraftVersion): string {
+        return `${id}-${minecraftVersion}`
+    }
+
     public async createServer(
         id: string,
         minecraftVersion: MinecraftVersion,
         options: {
+            version?: string
             forgeVersion?: string
-            liteloaderVersion?: string
+            fabricVersion?: string
         }
-    ): Promise<void> {
-        const effectiveId = `${id}-${minecraftVersion}`
+    ): Promise<CreateServerResult | null> {
+        const effectiveId = ServerStructure.getEffectiveId(id, minecraftVersion)
         const absoluteServerRoot = resolvePath(this.containerDirectory, effectiveId)
         const relativeServerRoot = join(this.relativeRoot, effectiveId)
 
         if (await pathExists(absoluteServerRoot)) {
             this.logger.error('Server already exists! Aborting.')
-            return
+            return null
         }
 
         await mkdirs(absoluteServerRoot)
 
-        const serverMetaOpts: ServerMetaOptions = {}
+        const serverMetaOpts: ServerMetaOptions = {
+            version: options.version
+        }
+        let modContainer: string | undefined = undefined
 
         if (options.forgeVersion != null) {
             const fms = VersionSegmentedRegistry.getForgeModStruct(
@@ -67,13 +84,21 @@ export class ServerStructure extends BaseModelStructure<Server> {
                 []
             )
             await fms.init()
+            modContainer = fms.getContainerDirectory()
             serverMetaOpts.forgeVersion = options.forgeVersion
         }
 
-        if (options.liteloaderVersion != null) {
-            const lms = new LiteModStructure(absoluteServerRoot, relativeServerRoot, this.baseUrl, minecraftVersion, [])
-            await lms.init()
-            serverMetaOpts.liteloaderVersion = options.liteloaderVersion
+        if (options.fabricVersion != null) {
+            const fms = new FabricModStructure(
+                absoluteServerRoot,
+                relativeServerRoot,
+                this.baseUrl,
+                minecraftVersion,
+                []
+            )
+            await fms.init()
+            modContainer = fms.getContainerDirectory()
+            serverMetaOpts.fabricVersion = options.fabricVersion
         }
 
         const serverMeta: ServerMeta = addSchemaToObject(
@@ -88,6 +113,12 @@ export class ServerStructure extends BaseModelStructure<Server> {
 
         const mfs = new MiscFileStructure(absoluteServerRoot, relativeServerRoot, this.baseUrl, minecraftVersion, [])
         await mfs.init()
+
+        return {
+            modContainer,
+            libraryContainer: libS.getContainerDirectory(),
+            miscFileContainer: mfs.getContainerDirectory()
+        }
 
     }
 
@@ -109,25 +140,35 @@ export class ServerStructure extends BaseModelStructure<Server> {
                     continue
                 }
 
+                // Read server meta
+                const serverMeta = JSON.parse(await readFile(resolvePath(absoluteServerRoot, this.SERVER_META_FILE), 'utf-8')) as ServerMeta
+                const minecraftVersion = new MinecraftVersion(match[2])
+                const untrackedFiles: UntrackedFilesOption[] = serverMeta.untrackedFiles || []
+
                 let iconUrl: string = null!
 
                 // Resolve server icon
-                const subFiles = await readdir(absoluteServerRoot)
-                for (const subFile of subFiles) {
-                    const caseInsensitive = subFile.toLowerCase()
-                    if (caseInsensitive.endsWith('.jpg') || caseInsensitive.endsWith('.png')) {
-                        iconUrl = new URL(join(relativeServerRoot, subFile), this.baseUrl).toString()
+
+                if(serverMeta.meta.icon && isValidUrl(serverMeta.meta.icon)) {
+                    // Use the url they gave us.
+                    iconUrl = serverMeta.meta.icon
+                } else {
+
+                    this.logger.info('Server icon is either not set or not a valid URL.')
+                    this.logger.info(`Looking for an icon file at ${absoluteServerRoot}`)
+
+                    const subFiles = await readdir(absoluteServerRoot)
+                    for (const subFile of subFiles) {
+                        const caseInsensitive = subFile.toLowerCase()
+                        if (caseInsensitive.endsWith('.jpg') || caseInsensitive.endsWith('.png')) {
+                            iconUrl = new URL(join(relativeServerRoot, subFile), this.baseUrl).toString()
+                        }
+                    }
+
+                    if (!iconUrl) {
+                        this.logger.warn(`No icon file found for server ${file}.`)
                     }
                 }
-
-                if (!iconUrl) {
-                    this.logger.warn(`No icon file found for server ${file}.`)
-                }
-
-                // Read server meta
-                const serverMeta: ServerMeta = JSON.parse(await readFile(resolvePath(absoluteServerRoot, this.SERVER_META_FILE), 'utf-8'))
-                const minecraftVersion = new MinecraftVersion(match[2])
-                const untrackedFiles: UntrackedFilesOption[] = serverMeta.untrackedFiles || []
 
                 const modules: Module[] = []
 
@@ -159,11 +200,25 @@ export class ServerStructure extends BaseModelStructure<Server> {
                     modules.push(...forgeModModules)
                 }
 
-                
-                if(serverMeta.liteloader) {
-                    const liteModStruct = new LiteModStructure(absoluteServerRoot, relativeServerRoot, this.baseUrl, minecraftVersion, untrackedFiles)
-                    const liteModModules = await liteModStruct.getSpecModel()
-                    modules.push(...liteModModules)
+                if(serverMeta.fabric) {
+                    const fabricResolver = new FabricResolver(dirname(this.containerDirectory), '', this.baseUrl, serverMeta.fabric.version, minecraftVersion)
+                    if (!fabricResolver.isForVersion(minecraftVersion, serverMeta.fabric.version)) {
+                        throw new Error(`Fabric resolver does not support Fabric ${serverMeta.fabric.version}!`)
+                    }
+
+                    const fabricModule = await fabricResolver.getModule()
+                    modules.push(fabricModule)
+
+                    const fabricModStruct = new FabricModStructure(
+                        absoluteServerRoot,
+                        relativeServerRoot,
+                        this.baseUrl,
+                        minecraftVersion,
+                        untrackedFiles
+                    )
+
+                    const fabricModModules = await fabricModStruct.getSpecModel()
+                    modules.push(...fabricModModules)
                 }
 
                 const libraryStruct = new LibraryStructure(absoluteServerRoot, relativeServerRoot, this.baseUrl, minecraftVersion, untrackedFiles)
@@ -185,6 +240,7 @@ export class ServerStructure extends BaseModelStructure<Server> {
                     ...(serverMeta.meta.discord ? {discord: serverMeta.meta.discord} : {}),
                     mainServer: serverMeta.meta.mainServer,
                     autoconnect: serverMeta.meta.autoconnect,
+                    javaOptions: serverMeta.meta.javaOptions,
                     modules
                 })
 
