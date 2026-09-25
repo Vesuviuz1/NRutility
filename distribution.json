@@ -12,7 +12,7 @@
       "name": "NarutoRepublic (1.20.1)",
       "description": "NarutoRepublic Official server",
       "icon": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/server-icon.png",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "address": "64.87.55.129:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -24,7 +24,7 @@
       "autoconnect": true,
       "javaOptions": {
         "distribution": "TEMURIN",
-        "supported": ">=17.x",
+        "supported": ">=17.x <18.x",
         "suggestedMajor": 17,
         "ram": {
           "recommended": 6144,
