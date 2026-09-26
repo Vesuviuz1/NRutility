@@ -502,13 +502,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.1.4@jar",
+          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.1.5@jar",
           "name": "ShinobiCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 28912970,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.1.4.jar",
-            "MD5": "97806c6863102dae2f7d64600633ad06"
+            "size": 28916958,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.1.5.jar",
+            "MD5": "b86212d4001acfc81ade6555b38764b5"
           }
         },
         {
@@ -542,13 +542,13 @@
           }
         },
         {
-          "id": "net.mcreator:vezaddon:1.20.1-0.1.4@jar",
+          "id": "net.mcreator:vezaddon:1.20.1-0.1.5@jar",
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 69076987,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.1.4.jar",
-            "MD5": "235bc2bccd3a2ab0a014ea888cac83f1"
+            "size": 69196476,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.1.5.jar",
+            "MD5": "884df59c12186f8b5c1bee3780b94012"
           }
         },
         {
