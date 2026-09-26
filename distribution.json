@@ -462,6 +462,16 @@
           }
         },
         {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
           "id": "mezz.jei:jei:15.56.0.204@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -469,6 +479,16 @@
             "size": 1778032,
             "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/jei-1.20.1-forge-15.56.0.204.jar",
             "MD5": "6c587ae1f6f7f3c9fad3b1788d892d85"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.83+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1003230,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/modernfix-forge-5.27.83+mc1.20.1.jar",
+            "MD5": "4222bb91833300504e3c0773aae1d999"
           }
         },
         {
@@ -482,13 +502,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.1.1@jar",
+          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.1.4@jar",
           "name": "ShinobiCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 28901431,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.1.1.jar",
-            "MD5": "effa6265f2d08985404cf8eaba9680d0"
+            "size": 28912970,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.1.4.jar",
+            "MD5": "97806c6863102dae2f7d64600633ad06"
           }
         },
         {
@@ -522,13 +542,33 @@
           }
         },
         {
-          "id": "net.mcreator:vezaddon:1.20.1-0.1.3@jar",
+          "id": "net.mcreator:vezaddon:1.20.1-0.1.4@jar",
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 68889250,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.1.3.jar",
-            "MD5": "cf443ee1563eb3cbdea85e0d8c004cdb"
+            "size": 69076987,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.1.4.jar",
+            "MD5": "235bc2bccd3a2ab0a014ea888cac83f1"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.5@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2128741,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-25.3.5.jar",
+            "MD5": "340d51ce1bec4a3e215850e78b965a06"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.46.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1425022,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/xaeroworldmap-forge-1.20.1-1.46.0.jar",
+            "MD5": "4f70123ff1b4f4fcb4b6598295d066f2"
           }
         },
         {
