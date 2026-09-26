@@ -552,13 +552,13 @@
           }
         },
         {
-          "id": "xaero.minimap:xaerominimap:25.3.5@jar",
+          "id": "xaero.minimap:xaerominimap:26.5.0@jar",
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2128741,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-25.3.5.jar",
-            "MD5": "340d51ce1bec4a3e215850e78b965a06"
+            "size": 2195399,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-26.5.0.jar",
+            "MD5": "a56fe7d87668347d89c162e17ddcf03d"
           }
         },
         {
