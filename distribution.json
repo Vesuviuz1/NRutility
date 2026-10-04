@@ -462,6 +462,16 @@
           }
         },
         {
+          "id": "com.emoji:emoji:1.0.0@jar",
+          "name": "Emoji Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174557,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/emoji-1.0.0.jar",
+            "MD5": "b22532f85fb858cce19ced84b312835a"
+          }
+        },
+        {
           "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
           "name": "Ferrite Core",
           "type": "ForgeMod",
@@ -502,13 +512,13 @@
           }
         },
         {
-          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.2.1@jar",
+          "id": "net.narutomod:narutomod:0.3.2-vezchanges-0.2.2@jar",
           "name": "ShinobiCraft",
           "type": "ForgeMod",
           "artifact": {
-            "size": 28916620,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.2.1.jar",
-            "MD5": "3cc59e02415b8b64dcb4bb69868ffa54"
+            "size": 28917006,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/shinobicraft-0.3.2-vezchanges-0.2.2.jar",
+            "MD5": "a7c6630651c9bbc16b8816f7168ba66d"
           }
         },
         {
@@ -542,13 +552,13 @@
           }
         },
         {
-          "id": "net.mcreator:vezaddon:1.20.1-0.2.1@jar",
+          "id": "net.mcreator:vezaddon:1.20.1-0.2.2@jar",
           "name": "VezAddon",
           "type": "ForgeMod",
           "artifact": {
-            "size": 76567459,
-            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.2.1.jar",
-            "MD5": "9842e333caafb683268964c8ae9d3e44"
+            "size": 76704975,
+            "url": "https://raw.githubusercontent.com/Vesuviuz1/NRutility/main/servers/NarutoRepublic-1.20.1/forgemods/required/vezaddon-1.20.1-0.2.2.jar",
+            "MD5": "88335cd153237ee90731d01a9cf0f526"
           }
         },
         {
